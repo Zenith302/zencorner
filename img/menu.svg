@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24.164"
+   height="17.031"
+   viewBox="0 0 24.163999 17.031"
+   fill="none"
+   version="1.1"
+   id="svg1950"
+   sodipodi:docname="menu.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1952"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false" />
+  <g
+     clip-path="url(#clip0_1498_58072)"
+     id="g1943"
+     transform="translate(-428,-419.012)">
+    <path
+       d="m 436.26,421.444 h 14.788 c 0.62,0 1.116,-0.484 1.116,-1.106 0,-0.628 -0.494,-1.116 -1.116,-1.116 H 436.26 c -0.629,0 -1.115,0.484 -1.115,1.116 0,0.62 0.484,1.106 1.115,1.106 z m 0,7.199 h 14.788 c 0.62,0 1.116,-0.493 1.116,-1.116 0,-0.62 -0.494,-1.106 -1.116,-1.106 H 436.26 c -0.629,0 -1.115,0.484 -1.115,1.106 0,0.621 0.484,1.116 1.115,1.116 z m 0,7.19 h 14.788 c 0.62,0 1.116,-0.484 1.116,-1.106 0,-0.63 -0.494,-1.116 -1.116,-1.116 H 436.26 c -0.629,0 -1.115,0.484 -1.115,1.116 0,0.62 0.484,1.106 1.115,1.106 z"
+       fill="#000000"
+       id="path1917"
+       inkscape:export-filename="menu.svg"
+       inkscape:export-xdpi="254.26253"
+       inkscape:export-ydpi="254.26253"
+       style="fill:#ffffff" />
+    <path
+       d="m 429.316,421.654 h 2.004 c 0.727,0 1.326,-0.597 1.326,-1.316 0,-0.739 -0.599,-1.326 -1.326,-1.326 h -2.004 c -0.727,0 -1.316,0.587 -1.316,1.326 0,0.719 0.589,1.316 1.316,1.316 z m 0,7.199 h 2.004 c 0.727,0 1.326,-0.597 1.326,-1.326 0,-0.728 -0.599,-1.316 -1.326,-1.316 h -2.004 c -0.727,0 -1.316,0.588 -1.316,1.316 0,0.729 0.589,1.326 1.316,1.326 z m 0,7.19 h 2.004 c 0.727,0 1.326,-0.597 1.326,-1.316 0,-0.738 -0.599,-1.326 -1.326,-1.326 h -2.004 c -0.727,0 -1.316,0.588 -1.316,1.326 0,0.719 0.589,1.316 1.316,1.316 z"
+       fill="#000000"
+       id="path1919"
+       style="fill:#ffffff" />
+  </g>
+  <defs
+     id="defs1948">
+    <clipPath
+       id="clip0_1498_58072">
+      <rect
+         width="712"
+         height="812"
+         rx="50"
+         fill="#ffffff"
+         id="rect1945"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+</svg>

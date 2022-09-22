@@ -1,0 +1,325 @@
+/* font defs uwu */
+@font-face {
+	font-family: Scr10;
+	src: url(../fnt/Scr10.woff2);
+}
+@font-face {
+	font-family: Scr18;
+	src: url(../fnt/Scr18.woff2);
+}
+@font-face {
+	font-family: 'Comicoro';
+	src: url(../fnt/Comicoro.woff2);
+}
+@font-face {
+	font-family: 'Lilian';
+	src: url(../fnt/Lilian.woff2);
+}
+
+/* variables */
+:root {
+	--vista-taskbar: linear-gradient(to bottom, #54545477 0%,#b4b5b577 3%,#8b8c8c77 7%,#86878777 14%,#7d7e7e77 21%,#48494a77 48%,#1b1d1f77 52%,#18191b77 93%,#17191a77 97%,#13141577 100%);
+	--vista-taskbar-opaque: linear-gradient(to bottom, #545454cc 0%,#b4b5b5cc 3%,#8b8c8ccc 7%,#868787cc 14%,#7d7e7ecc 21%,#48494acc 48%,#1b1d1fcc 52%,#18191bcc 93%,#17191acc 97%,#131415cc 100%);
+}
+
+/* hehe modify html element default styles :3c */
+body {
+	margin: 0;
+	font-family: 'Comicoro';
+	font-smooth: never;
+	color: #000017;
+	background-color: #000017;
+}
+.construction {
+    text-shadow: 0px 0px 8px #ffa366;
+    color: #ffcca9;
+}
+.construction > img {
+    vertical-align: middle;
+    filter: drop-shadow(0px 0px 6px #ffa366);
+}
+.text-scroller {
+	height:32px;
+	width:100%;
+	margin-top: -3px;
+	font-family: 'Scr18';
+	font-size: 18px;
+	background: linear-gradient(to bottom, rgba(231,218,248,0.45) 0%,rgba(186,167,239,0.45) 4%,rgba(169,137,233,0.45) 11%,rgba(153,120,230,0.45) 18%,rgba(144,99,227,0.45) 21%,rgba(139,93,225,0.45) 25%,rgba(123,67,221,0.45) 29%,rgba(119,60,220,0.45) 32%,rgba(98,39,215,0.45) 36%,rgba(95,35,199,0.45) 43%,rgba(75,28,162,0.45) 54%,rgba(69,26,154,0.45) 61%,rgba(61,23,143,0.45) 64%,rgba(65,23,137,0.45) 79%,rgba(61,21,131,0.45) 82%,rgba(61,22,134,0.45) 89%,rgba(66,25,147,0.45) 93%,rgba(95,38,210,0.45) 96%,rgba(26,9,59,0.45) 100%);
+	backdrop-filter: blur(4px);
+	line-height: 100%;
+}
+.marquee {
+	line-height: 32px;
+	white-space: pre;
+	width: 100%;
+	background-image: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+h1, h2, h3, h4 {
+	font-family: 'Lilian';
+	background: linear-gradient(to right, #741291FF 0%, #550066FF 50%, #55006600 100%);
+	text-shadow: 0px 0px 8px #FF99CC, 0px 0px 8px #FF99CC;
+	margin-left: -24px;
+	padding-left: 24px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+h1 { font-size: 28px;}
+
+/* page containers */
+.page-container {
+	box-sizing: border-box;
+}
+.page-content {
+	padding: 20px;	
+	margin-left: 260px;
+	color: white;
+	display: inline-block;
+}
+.page-content > p {
+	font-size: 24px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.page-footer {
+	position: absolute;
+	bottom: 8px;
+	left: 256px;
+	margin-left: 24px;
+}
+
+/* sidebar stuff */
+.sidebar {
+	z-index: 2;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	width: 256px;
+	float: left;
+	height: 100%;
+	min-height: 100vh;
+	line-height: 65%;
+	font-size: 32px;
+	background-image: url(../img/sidebartest.gif);
+	color: white;
+	border-right: 4px #741291 groove;
+}
+.sidebar > span {
+	text-shadow: 0px 0px 6px #d973f0, 0px 0px 6px #d973f0, 0px 0px 6px #d973f0;
+	color: #f1ccff;
+	display: block;
+	text-align: center;
+}
+
+.sidebar-footer {
+	width: 100%;
+	text-shadow: 0px 0px 6px #d973f0, 0px 0px 6px #d973f0, 0px 0px 6px #d973f0;
+	color: #f1ccff;
+	text-align: center;
+	padding-bottom: 10px;
+	background: linear-gradient(to top, #af20b4, #FFFFFF00);
+}
+.sidebar-footer > p { padding: 0; margin: 0; }
+.sidebar-footer > p > a {
+	color: white;
+	text-shadow: 0px 0px 8px #FF99CC, 0px 0px 8px #FF99CC;
+	font-family: 'Scr10';
+	font-size: 10px;
+}
+
+.ashiecorner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 99px;
+}
+
+.zenkitty {
+	text-shadow: 0px 0px 6px #4263f5, 0px 0px 6px #4263f5, 0px 0px 6px #4263f5;
+	color: #a8c8ff;
+}
+.ashiekitty {
+	text-shadow: 0px 0px 6px #8940ff, 0px 0px 6px #8940ff, 0px 0px 6px #8940ff;
+	color: #e0c2ff;
+}
+
+/* navmenu stuff */
+.sidebar > ol {
+	list-style-type: none;
+	text-align: left;
+	padding-left: 0px;
+	font-size: 21px;
+	font-family: 'Lilian';
+	flex: 1;
+}
+.sidebar > ol > li {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.sidebar > ol > li:hover {
+	background: linear-gradient(to bottom, #55006600 0%,#550066FF 50%,#55006600 100%);
+}
+.sidebar > ol > li > a {
+	color: #ffd9ff;
+	text-shadow: 0px 0px 6px #8662e3;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.sidebar > ol > li > a:hover {
+	color: #CBA1FF;
+}
+.sidebar > ol > li > a > img {
+	filter: drop-shadow(0px 0px 4px #9f7aff);
+}
+
+.welcome {
+	max-width: 100%; 
+	height: auto;
+}
+
+/* projects page cards */
+/* why did i have to put so much effort into these */
+.card {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    width: 50vw;
+    max-width: 640px;
+    border-radius: 5px;
+    background: #000b13;
+}
+/* diy box shadow lmao */
+.card::before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    transition: 1s;
+    filter: blur(5px);
+    background: linear-gradient(to right, #ff89ff, #6bf3ff);
+}
+.card:hover::before {
+    filter: blur(10px);
+}
+
+.card-header {
+    font-family: 'Lilian';
+    font-size: 30px;
+    margin: 0;
+    padding: 8px 8px 8px 16px;
+    background: linear-gradient(to right, #3f183f, #0f3a41);
+    text-shadow: 0px 0px 8px #FF99CC;
+    box-shadow: inset 0px -48px 24px -24px #000b13;
+}
+.card-header > span > img {
+    display: inline-block;
+    vertical-align: middle;
+    filter: drop-shadow(0px 0px 4px #FF99CC);
+}
+.icons {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    display: inline;
+    position: absolute;
+    right: 16px;
+    width: 100%;
+}
+.icons > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 4px #ff6bce);
+}
+.icons > a:hover {
+    color: #c3ffe8;
+    filter: drop-shadow(0px 0px 8px #6bf3ff);
+}
+.card > p {
+    display: inline-block;
+    margin: 0;
+    padding: 8px 16px 16px 16px;
+    font-size: 24px;
+    width: 100%;
+    max-width: fit-content;
+    text-shadow: 0px 0px 4px #FF7777;
+}
+/* they told me webdev was fun */
+#active {
+    font-size: 22px;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #bdffbd;
+    text-shadow: 0px 0px 4px #4eda42;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #142213;
+    background: linear-gradient(to right, #195e19, #142213);
+}
+#inactive {
+    font-size: 22px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #ffbdbd;
+    text-shadow: 0px 0px 4px #da4242;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #221313;
+    background: linear-gradient(to right, #5e1919, #221313);
+}
+#on-hold { /*nyanyanyanyanyanyanyanyanyanyanyanyanyanyanyanya*/
+    font-size: 22px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #ffedbd;
+    text-shadow: 0px 0px 4px #ffed4f;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #221d13;
+    background: linear-gradient(to right, #5e5419, #221d13);
+}
+#active > img, #inactive > img, #on-hold > img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* uwu nya mew mew :3 */
+.navButton { /* normally invisible on desktop */
+    position: fixed;
+    top: 16px;
+    left: -256px;
+    background-color: #741291;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    background: linear-gradient(to right, #741291FF 0%, #550066FF 50%, #55006600 100%);
+    border: none;
+    outline: none;
+}
+
+.navButton > img {
+    width: 32px;
+    padding-right: 24px;
+    filter: drop-shadow(0px 0px 6px #FF99CC);
+    transition: filter 0.5s;
+}
+
+.navButton:hover > img {
+    filter: drop-shadow(0px 0px 6px #99ffee) drop-shadow(0px 0px 6px #99ffee);
+}
+
+#navOpen { filter: blur(6px); }
+
+@media only screen and (max-width: 600px) {
+    .sidebar { left: -256px; transition: left 0.5s; }
+    .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; }
+	.navButton { left: 3px; transition: left 0.5s; }
+    .card { width: calc(100vw - 64px); }
+}
