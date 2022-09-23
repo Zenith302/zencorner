@@ -107,6 +107,32 @@ ul > li {
 	width: 75%;
 }
 
+.refresh-feed {
+    font-family: 'Comicoro';
+    font-size: 32px;
+    text-shadow: 0px 0px 4px #ffa366;
+    transition: text-shadow 0.5s;
+    color: #fff;
+    box-sizing: border-box;
+    border: none;
+    background: #8d40ac;
+    box-shadow: inset -2px -2px #3b044b, inset 2px 2px #e2b0ff, inset -4px -4px #783b80, inset 4px 4px #ca86df;
+    border-radius: 0;
+    
+    min-width: 75px;
+    min-height: 23px;
+    padding: 0 12px;
+    margin-top: 8px;
+    vertical-align: top;
+}
+.refresh-feed:hover {
+    text-shadow: 0px 0px 8px #ffa366, 0px 0px 8px #ffa366;
+}
+.refresh-feed:active {
+    background: #64287c;
+    box-shadow: inset -2px -2px #e2b0ff, inset 2px 2px #3b044b, inset -4px -4px #ca86df, inset 4px 4px #783b80;
+}
+
 /* sidebar stuff */
 .sidebar {
 	z-index: 2;
