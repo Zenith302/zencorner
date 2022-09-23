@@ -1,6 +1,7 @@
 ### <update/> Site updates! | 09/23/22
 
 - Streamlined the newsfeed process
+- Added a link to view the raw newsfeed data
 - Better scaling and mobile support
 - Fixed some formatting issues
 
