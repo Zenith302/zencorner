@@ -7,6 +7,7 @@
 - Changed image filtering; only vector images have anti-alias
 - About Me page finished
 - Links+Chats page filled out
+- site now scales to resolutions higher than 1080i
 - Removed Herobrine
 ### <img src="img/globe-green.png"> Added fancy effects {09/12/22}
 
