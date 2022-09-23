@@ -1,6 +1,7 @@
 
 ### <img src="img/globe-green.png"> General updates! {09/22/22}
 
+- Added third index art piece for Wednesday
 - Added code parity between Ash and I's websites
 - Added feed refresh button
 - Added different colors and icons for clarity
