@@ -87,6 +87,7 @@ ul > li {
 	margin-left: 260px;
 	color: white;
 	display: inline-block;
+	width: calc(100vw - 310px);
 }
 .page-content > p {
 	font-size: 24px;
@@ -387,7 +388,7 @@ ul > li {
 
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
-    .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; }
+    .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; width: calc(100vw - 64px); }
 	.navButton { left: 3px; transition: left 0.5s; visibility: visible; }
     .card { width: calc(100vw - 64px); }
 	#navOpen { filter: blur(6px); }
