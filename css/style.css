@@ -118,6 +118,18 @@ ul > li {
 	text-shadow: 0px 0px 8px #99ccff;
 	width: 75%;
 }
+update:before {
+    content: url(../img/globe.png);
+}
+
+.feed > h2 {
+	background: linear-gradient(to right, #321291FF 0%, #123291FF 50%, #12329100 100%);
+	text-shadow: 0px 0px 8px #99ccff;
+	width: 75%;
+}
+news:before {
+    content: url(../img/blog.png);
+}
 
 .refresh-feed {
     font-family: 'Comicoro';
