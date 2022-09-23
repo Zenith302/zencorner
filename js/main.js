@@ -84,4 +84,23 @@ $(document).ready(function() {
 			$(".indexImg").attr("src", "img/ZenIndex1.png");
 			break;
 	}
+	
+// mobile nav swipe actions
+
+function navSwipeRight() {
+    // open nav
+    if (!navState) {
+        navButton();
+    }
+}
+function navSwipeLeft() {
+    // close nav
+    if (navState) {
+        navButton();
+    }
+}
+
+Hammer(document).on("swipeleft", navSwipeLeft);
+Hammer(document).on("swiperight", navSwipeRight);
+
 });

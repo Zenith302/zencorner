@@ -93,6 +93,13 @@ ul > li {
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
+
+.page-content > a, .page-content > p > a {
+	font-size: 24px;
+	color: #99FFCC;
+    text-shadow: 0px 0px 6px #99FFCC;
+}
+
 .page-footer {
 	position: absolute;
 	bottom: 8px;
@@ -334,6 +341,15 @@ ul > li {
 #active > img, #inactive > img, #on-hold > img {
     display: inline-block;
     vertical-align: middle;
+}
+
+.link { text-decoration: none; }
+.link:hover { text-decoration: underline; }
+
+.link > img {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
 }
 
 /* uwu nya mew mew :3 */
