@@ -344,3 +344,8 @@ ul > li {
 	.navButton { left: 3px; transition: left 0.5s; }
     .card { width: calc(100vw - 64px); }
 }
+
+/* to better fit large screens, double scale literally everything lmao */
+@media only screen and (min-width: 2048px) {
+    body { transform: scale(2.0) translate(25%, 25%); width: 50vw; height: 50vh; }
+}
