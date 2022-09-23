@@ -6,9 +6,10 @@
 - Added different colors and icons for clarity
 - Changed image filtering; only vector images have anti-alias
 - About Me page finished
-- Links+Chats page filled out
+- Links+Chats page finished
 - site now scales to resolutions higher than 1080i
 - Removed Herobrine
+
 ### <img src="img/globe-green.png"> Added fancy effects {09/12/22}
 
 ### <img src="img/globe-green.png"> The site is live!! {09/11/22}
