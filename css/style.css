@@ -23,12 +23,15 @@
 }
 
 /* hehe modify html element default styles :3c */
+html { overflow-x: hidden; }
 body {
 	margin: 0;
 	font-family: 'Comicoro';
 	image-rendering: pixelated;
 	color: #000017;
 	background-color: #000017;
+	
+	overflow-x: hidden;
 }
 .construction {
     text-shadow: 0px 0px 8px #ffa366;
@@ -87,7 +90,8 @@ ul > li {
 	margin-left: 260px;
 	color: white;
 	display: inline-block;
-	width: calc(100vw - 310px);
+	width: calc(100vw - 301px);
+	height: 100%;
 }
 .page-content > p {
 	font-size: 24px;
@@ -388,13 +392,18 @@ ul > li {
 
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
-    .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; width: calc(100vw - 64px); }
+    .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; width: calc(100vw - 20px); height: 100%; }
 	.navButton { left: 3px; transition: left 0.5s; visibility: visible; }
     .card { width: calc(100vw - 64px); }
 	#navOpen { filter: blur(6px); }
+	
+	.feed > h1 { width: inherit; }
 }
 
 /* to better fit large screens, double scale literally everything lmao */
 @media only screen and (min-width: 2048px) {
-    body { transform: scale(2.0) translate(25%, 25%); width: 50vw; height: 50vh; }
+    body { transform: scale(2.0); transform-origin: top left; width: 50vw; height: 50vh; overflow-y: hidden; }
+
+    .page-content { width: calc(50vw - 301px); height: calc(50vh - 40px); overflow: scroll; }
+    .sidebar { min-height: 50vh; height: 50vh; }
 }
