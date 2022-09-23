@@ -343,7 +343,7 @@ ul > li {
     vertical-align: middle;
 }
 
-.link { text-decoration: none; }
+.link { text-decoration: none; margin-bottom: -8px; display: block; }
 .link:hover { text-decoration: underline; }
 
 .link > img {
@@ -351,6 +351,12 @@ ul > li {
     vertical-align: middle;
     border-radius: 6px;
 }
+
+#tw { box-shadow: 0px 0px 6px #99c9ff; }
+#gh { box-shadow: 0px 0px 6px #da99ff; }
+#yt { box-shadow: 0px 0px 6px #ff9999; }
+#rd { box-shadow: 0px 0px 6px #ffca99; }
+#ds { box-shadow: 0px 0px 6px #c099ff; }
 
 /* uwu nya mew mew :3 */
 .navButton { /* normally invisible on desktop */
