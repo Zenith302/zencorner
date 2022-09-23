@@ -26,7 +26,7 @@
 body {
 	margin: 0;
 	font-family: 'Comicoro';
-	font-smooth: never;
+	image-rendering: pixelated;
 	color: #000017;
 	background-color: #000017;
 }
@@ -104,6 +104,7 @@ ul > li {
 .feed > h3 {
 	background: linear-gradient(to right, #321291FF 0%, #123291FF 50%, #12329100 100%);
 	text-shadow: 0px 0px 8px #99ccff;
+	width: 75%;
 }
 
 /* sidebar stuff */
@@ -196,6 +197,7 @@ ul > li {
 .welcome {
 	max-width: 100%; 
 	height: auto;
+	image-rendering: auto;
 }
 
 /* projects page cards */
@@ -320,6 +322,7 @@ ul > li {
     background: linear-gradient(to right, #741291FF 0%, #550066FF 50%, #55006600 100%);
     border: none;
     outline: none;
+	image-rendering: auto;
 }
 
 .navButton > img {
