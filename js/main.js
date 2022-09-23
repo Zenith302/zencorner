@@ -56,6 +56,11 @@ function navButton() {
 //I love ash so fucking mushc oh my   gg od gspoopsgopgsgsepioispobniohopji[e4ayut08934iw[34w5etuj8i9o
 // i love you too <3333333333
 
+// uwu newsfeed :3333
+function feedGET() {
+    fetch('newsfeed.md').then(response => response.text()).then(result => $('.feed').html(snarkdown(result)));
+}
+
 // the funny
 $(document).ready(function() {
 	$("#scrollText").css("backgroundImage", r_grad[i]);

@@ -52,20 +52,31 @@ body {
 	line-height: 32px;
 	white-space: pre;
 	width: 100%;
-	background-image: white;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; 
+	background-image: linear-gradient(to bottom, rgba(20,255,28,1) 0%,rgba(41,154,11,1) 100%)
 }
 h1, h2, h3, h4 {
 	font-family: 'Lilian';
 	background: linear-gradient(to right, #741291FF 0%, #550066FF 50%, #55006600 100%);
-	text-shadow: 0px 0px 8px #FF99CC, 0px 0px 8px #FF99CC;
+	text-shadow: 0px 0px 8px #FF99CC;
 	margin-left: -24px;
 	padding-left: 24px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 h1 { font-size: 28px;}
+h2 { font-size: 25px;}
+h3 { font-size: 21px;}
+h4 { font-size: 18px;}
+
+ul {
+	list-style-image: url('../img/disc.png');
+}
+ul > li {
+	line-height: 50%;
+	margin-bottom: 15px;
+}
 
 /* page containers */
 .page-container {
@@ -87,6 +98,12 @@ h1 { font-size: 28px;}
 	bottom: 8px;
 	left: 256px;
 	margin-left: 24px;
+}
+
+.feed { font-size: 24px; }
+.feed > h3 {
+	background: linear-gradient(to right, #321291FF 0%, #123291FF 50%, #12329100 100%);
+	text-shadow: 0px 0px 8px #99ccff;
 }
 
 /* sidebar stuff */
@@ -130,12 +147,13 @@ h1 { font-size: 28px;}
 	font-size: 10px;
 }
 
-.ashiecorner {
+.center-badge {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 99px;
 }
+.center-badge > img { filter: drop-shadow(0px 0px 6px #59cf93) }
 
 .zenkitty {
 	text-shadow: 0px 0px 6px #4263f5, 0px 0px 6px #4263f5, 0px 0px 6px #4263f5;
