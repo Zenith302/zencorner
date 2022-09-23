@@ -109,7 +109,7 @@ ul > li {
 
 .refresh-feed {
     font-family: 'Comicoro';
-    font-size: 32px;
+    font-size: 24px;
     text-shadow: 0px 0px 4px #ffa366;
     transition: text-shadow 0.5s;
     color: #fff;
@@ -122,7 +122,7 @@ ul > li {
     min-width: 75px;
     min-height: 23px;
     padding: 0 12px;
-    margin-top: 8px;
+    margin-top: 3px;
     vertical-align: top;
 }
 .refresh-feed:hover {
