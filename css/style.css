@@ -116,6 +116,7 @@ ul > li {
 .feed > h3 {
 	background: linear-gradient(to right, #321291FF 0%, #123291FF 50%, #12329100 100%);
 	text-shadow: 0px 0px 8px #99ccff;
+	color: #d9ccff
 	width: 75%;
 }
 update:before {
@@ -125,7 +126,7 @@ update:before {
 .feed > h2 {
 	font-size: 21px;
 	text-shadow: 0 0 6px #ffa366;
-	color: #ffeec9;
+	color: #ffffd9;
 	background: linear-gradient(to right,#d23c00 0,#ae5400 50%,#661d0000 100%);
 	width: 75%;
 }
