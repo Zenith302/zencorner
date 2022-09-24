@@ -125,7 +125,7 @@ update:before {
 .feed > h2 {
 	font-size: 21px;
 	text-shadow: 0 0 6px #ffa366;
-	color: #ffcca9;
+	color: #ffeec9;
 	background: linear-gradient(to right,#d23c00 0,#ae5400 50%,#661d0000 100%);
 	width: 75%;
 }
