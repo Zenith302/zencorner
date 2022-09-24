@@ -123,8 +123,10 @@ update:before {
 }
 
 .feed > h2 {
-	background: linear-gradient(to right, #321291FF 0%, #123291FF 50%, #12329100 100%);
-	text-shadow: 0px 0px 8px #99ccff;
+	font-size: 21px;
+	text-shadow: 0 0 6px #ffa366;
+	color: #ffcca9;
+	background: linear-gradient(to right,#d23c00 0,#ae5400 50%,#661d0000 100%);
 	width: 75%;
 }
 news:before {
