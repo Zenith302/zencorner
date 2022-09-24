@@ -1,3 +1,9 @@
+### <update/> Site updates! | 09/24/22
+
+- Added more to Links+Chats
+- Under construction message added to the Art+Music page
+- Added better parity between Ash and I's sites (again)
+
 ### <update/> Site updates! | 09/23/22
 
 - Streamlined the newsfeed process
