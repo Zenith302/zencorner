@@ -1,3 +1,7 @@
+### <update/> Site Updates! | 09/24/22
+
+- Added my Manjaro partition to the about me page
+
 ## <news/> News Updates! | 09/24/22
 
 - Hey everybody, glad to see you all have been following the website's progress! Just want to push an announcement so you know why updates are going to start slowing down. Autumn break is about to end and I'm gonna have to go back to classes for a while, making consistent site updates particularly difficult. Hope you understand, and have a great day! --Zenith
