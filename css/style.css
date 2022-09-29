@@ -504,8 +504,8 @@ input, textarea {
 }
 input:focus, textarea:focus {
     outline: none;
-    border: 2px #00bb8c solid;
-    box-shadow: 0px 0px 8px #6bffc6;
+    border: 2px #7332ed solid;
+    box-shadow: 0px 0px 8px #8f5eff;
 }
 
 hr {
