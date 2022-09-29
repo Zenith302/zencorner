@@ -1,3 +1,7 @@
+### <update/> Site Updates! | 09/28/22
+
+- Added and finalized the guestbook, including spam and code execution prevention
+
 ### <update/> Site Updates! | 09/24/22
 
 - Added my Manjaro partition to the about me page

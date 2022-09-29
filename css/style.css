@@ -4,6 +4,10 @@
 	src: url(../fnt/Scr10.woff2);
 }
 @font-face {
+	font-family: Scr14;
+	src: url(../fnt/Scr14.woff2);
+}
+@font-face {
 	font-family: Scr18;
 	src: url(../fnt/Scr18.woff2);
 }
