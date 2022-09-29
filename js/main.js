@@ -61,6 +61,28 @@ function feedGET() {
     fetch('newsfeed.md').then(response => response.text()).then(result => $('.feed').html(snarkdown(result)));
 }
 
+// guestbook things! ^-^
+function guestbookGET() {
+    fetch('https://api.ashiecorner.xyz/pygb/api/getEntries/zencorner').then(response => response.json()).then(function(json) {
+        if (json) {
+            $('.gb-entries').html('');
+            var tmp = '';
+            $.each( json, function( key, value ) {
+                tmp += '<div class="gbe">';
+                tmp += '    <div class="gbe-header">';
+                tmp += '      <p class="gbe-name">' + value[0] + '</p>';
+                tmp += '      <p class="gbe-timestamp">' + value[3] + '</p><br>';        
+                tmp += '      <p class="gbe-email">' + value[1] + '</p>';
+                tmp += '    </div>';
+                tmp += '    <p>' + value[2] + '</p>';
+                tmp += '</div>';
+            });
+    
+            $('.gb-entries').prepend(tmp);
+        }
+    });
+}
+
 // the funny
 $(document).ready(function() {
 	$("#scrollText").css("backgroundImage", r_grad[i]);

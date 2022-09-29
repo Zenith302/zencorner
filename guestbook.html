@@ -34,11 +34,36 @@
 			</nav>
 			
 			<div class="page-content">
-				
+				<h1>Guestbook</h1>
+				<p>Sign my guestbook!</p>
+				<form class="guestbook" name="guestbook" action="https://api.ashiecorner.xyz/pygb/api/postEntry/zencorner" method="POST">
+					<p>
+						<label id="name">Name</label>
+						<input type="text" maxlength="35" name="name" />
+					</p>
+					<p>
+						<label id="email">Email</label>
+						<input type="email" maxlength="140" name="email" />
+					</p>
+					<flexbr></flexbr>
+					<p>
+						<label id="message">Message<br><span class="subnote">140ch limit</span></label>
+						<textarea name="message" spellcheck="false" maxlength="140"></textarea>
+					</p>
+					<flexbr></flexbr>
+					<p id="postBtn">
+						<button type="submit">Sign</button>
+					</p>
+				</form> 
+				<hr>
+				<div class="gb-entries">
+					<p style="font-size:24px">Guestbook down for maintainence or JavaScript disabled/unsupported.</p>
+				</div>
 			</div>
 		</div>
 	</body>
 	<script src="js/jquery.js"></script>
 	<script src="js/hammer.min.js"></script>
 	<script src="js/main.js"></script>
+	<script>guestbookGET()</script>
 </html>

@@ -406,6 +406,187 @@ news:before {
     filter: drop-shadow(0px 0px 6px #99ffee) drop-shadow(0px 0px 6px #99ffee);
 }
 
+/* guestbook things */
+
+flexbr {
+    flex-basis: 100%;
+    height: 0;
+}
+.guestbook {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 32px;
+    max-width: 640px;
+    margin-bottom: 32px;
+}
+
+.guestbook > p {
+    margin: 0;
+    padding-top: 12px;
+    display: inline-flex;
+    flex: 1;
+}
+
+.guestbook > p > label { 
+    flex: none;
+    display: block;
+    width: 80px;
+    text-align: right;
+    padding-right: 8px;
+}
+.guestbook > p > label > span {
+    text-shadow: none;
+    bottom: 16px;
+    position: relative;
+}
+
+.guestbook > p > input {
+    display: block;
+    flex: 1 0 auto;
+    margin: 4px;
+}
+.guestbook > p > textarea {
+    margin: 4px;
+    height: 64px;
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.guestbook > p > button {
+    font-family: 'Comicoro';
+    font-size: 32px;
+    text-shadow: 0px 0px 4px #9c94ff;
+    transition: text-shadow 0.5s;
+    color: #fff;
+    box-sizing: border-box;
+    border: none;
+    background: #79256e;
+    box-shadow: inset -2px -2px #4b0433,inset 2px 2px #ff8bd9,inset -4px -4px #712356,inset 4px 4px #9d517d;
+    border-radius: 0;
+    
+    min-width: 75px;
+    min-height: 23px;
+}
+.guestbook > p > button:hover {
+    text-shadow: 0px 0px 6px #9c94ff, 0px 0px 8px #9c94ff;
+}
+.guestbook > p > button:active {
+    background: #5e1955;
+    box-shadow: inset -2px -2px #ff8bd9, inset 2px 2px #4b0433, inset -4px -4px #9d517d, inset 4px 4px #712356;
+}
+#postBtn { justify-content: right; margin-right: 4px }
+
+#name {
+    color: #99FFCC;
+    text-shadow: 0px 0px 6px #99FFCC;
+}
+#email {
+    text-shadow: 0px 0px 6px #8940ff;
+    color: #e0c2ff;
+}
+#message {
+    display: block;
+    color: #fff;
+    text-shadow: 0px 0px 6px #FF99CC;
+}
+
+input, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+    background-color: #102;
+    font-family: Scr14;
+    font-size: 14px;
+    border: 2px #860086 inset;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border: 2px #00bb8c solid;
+    box-shadow: 0px 0px 8px #6bffc6;
+}
+
+hr {
+    color: #ad008a;
+    box-shadow: 0px 0px 8px #ff41b5;
+    border: 1.5px solid;
+}
+
+/* guestbook entries */
+
+.gb-entries { margin-top: 32px; margin-right: 4px; }
+
+.gbe {
+    display: block;
+    background-color: #000b13;
+    border-radius: 5px;
+    max-width: 640px;
+    min-height: 96px;
+    margin-bottom: 16px;
+    font-size: 32px;
+
+    box-shadow: 0px 0px 8px #6bffc6;
+    transition: box-shadow 0.5s;
+}
+.gbe:hover {
+    box-shadow: 0px 0px 16px #6bffc6;
+}
+.gbe-header {
+    background: linear-gradient(to bottom,#0f412e, #000b13);
+    border-radius: 5px;
+}
+.gbe-header > p {
+    display: inline;
+    margin: 0;
+    text-shadow: 0px 0px 6px #FF99CC;
+}
+.gbe-name {
+    padding-left: 16px;
+    float: left;
+}
+.gbe-timestamp {
+    float: right;
+    padding-right: 16px;
+    color: #45cea5;
+    text-shadow: 0 0 6px #6bffc6 !important;
+}
+.gbe-email {
+    display: block!important;
+    padding-left: 16px;
+    font-size: 14px;
+    font-family: Scr14;
+    color: #e59fff;
+}
+.gbe > p {
+    margin: 16px;
+    font-size: 18px;
+    font-family: Scr18;
+    overflow-wrap: break-word;
+    padding-bottom: 16px;
+}
+
+/* alternating card theming bc why not uwu */
+.gbe:nth-child(odd) {
+    background-color: #1a001f;
+    box-shadow: 0px 0px 8px #ff89ff;
+}
+.gbe:nth-child(odd):hover {
+    box-shadow: 0px 0px 16px #ff89ff;
+}
+.gbe:nth-child(odd) > .gbe-header {
+    background: linear-gradient(to bottom,#3f183f, #1a001f);
+}
+.gbe:nth-child(odd) > .gbe-header > .gbe-timestamp {
+    color: #da78dd;
+    text-shadow: 0 0 6px #ff89ff !important;
+}
+.gbe:nth-child(odd) > .gbe-header > .gbe-email {
+    color: #45cea5;
+    text-shadow: 0 0 6px #6bffc6 !important;
+}
+
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
     .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; width: calc(100vw - 20px); height: 100%; }
