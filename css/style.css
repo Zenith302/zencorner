@@ -476,9 +476,9 @@ flexbr {
     box-shadow: inset -2px -2px #ff8bd9, inset 2px 2px #4b0433, inset -4px -4px #9d517d, inset 4px 4px #712356;
 }
 #postBtn { justify-content: right; margin-right: 4px }
-
+/*fuorkc yoy btich*/
 #name {
-    color: #99FFCC;
+    color: #99CCFF;
     text-shadow: 0px 0px 6px #99FFCC;
 }
 #email {
@@ -520,21 +520,21 @@ hr {
 
 .gbe {
     display: block;
-    background-color: #000b13;
+    background-color: #11143c;
     border-radius: 5px;
     max-width: 640px;
     min-height: 96px;
     margin-bottom: 16px;
     font-size: 32px;
 
-    box-shadow: 0px 0px 8px #6bffc6;
+    box-shadow: 0px 0px 8px #8f5eff;
     transition: box-shadow 0.5s;
 }
 .gbe:hover {
-    box-shadow: 0px 0px 16px #6bffc6;
+    box-shadow: 0px 0px 16px #8f5eff;
 }
 .gbe-header {
-    background: linear-gradient(to bottom,#0f412e, #000b13);
+    background: linear-gradient(to bottom,#3d2594,#11143c);
     border-radius: 5px;
 }
 .gbe-header > p {
@@ -549,7 +549,7 @@ hr {
 .gbe-timestamp {
     float: right;
     padding-right: 16px;
-    color: #45cea5;
+    color: #99ccff;
     text-shadow: 0 0 6px #6bffc6 !important;
 }
 .gbe-email {
@@ -557,7 +557,7 @@ hr {
     padding-left: 16px;
     font-size: 14px;
     font-family: Scr14;
-    color: #e59fff;
+    color: #99ccff;
 }
 .gbe > p {
     margin: 16px;
@@ -583,7 +583,7 @@ hr {
     text-shadow: 0 0 6px #ff89ff !important;
 }
 .gbe:nth-child(odd) > .gbe-header > .gbe-email {
-    color: #45cea5;
+    color: #99ccff;
     text-shadow: 0 0 6px #6bffc6 !important;
 }
 

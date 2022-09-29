@@ -47,8 +47,8 @@
 					</p>
 					<flexbr></flexbr>
 					<p>
-						<label id="message">Message<br><span class="subnote">140ch limit</span></label>
-						<textarea name="message" spellcheck="false" maxlength="140"></textarea>
+						<label id="message">Message<br><span id="count">140</span></label>
+						<textarea id="msg" name="message" spellcheck="false" maxlength="140"></textarea>
 					</p>
 					<flexbr></flexbr>
 					<p id="postBtn">
@@ -65,5 +65,11 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/hammer.min.js"></script>
 	<script src="js/main.js"></script>
-	<script>guestbookGET()</script>
+	<script>
+		guestbookGET()
+		// hehe i love putting scripts in the html pages
+		$("#msg").keyup(function(){
+			$("#count").text(140 - $(this).val().length);
+		});
+	</script>
 </html>
