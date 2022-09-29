@@ -1,6 +1,6 @@
 ### <update/> Site Updates! | 09/28/22
 
-- Added and finalized the guestbook, including spam and code execution prevention
+- Added and finalized the guestbook, including spam and code execution prevention! (CRS and Nano if you somehow find a way past this I swear-)
 
 ### <update/> Site Updates! | 09/24/22
 
