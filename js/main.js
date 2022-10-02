@@ -62,25 +62,39 @@ function feedGET() {
 }
 
 // guestbook things! ^-^
-function guestbookGET() {
-    fetch('https://api.ashiecorner.xyz/pygb/api/getEntries/zencorner').then(response => response.json()).then(function(json) {
+async function guestbookGET() {
+    const response = await fetch('https://api.ashiecorner.xyz/pygb/api/getEntries/zencorner', {mode: 'cors'});
+    if (response.ok) {
+        let json = await response.json();
         if (json) {
-            $('.gb-entries').html('');
             var tmp = '';
             $.each( json, function( key, value ) {
+                const epoch = Number(value[3])
                 tmp += '<div class="gbe">';
                 tmp += '    <div class="gbe-header">';
                 tmp += '      <p class="gbe-name">' + value[0] + '</p>';
-                tmp += '      <p class="gbe-timestamp">' + value[3] + '</p><br>';        
+                if (Number.isInteger(epoch)) {
+                    var date = new Date(epoch*1000);
+                    var timestamp = date.toLocaleTimeString([], {
+                        year: 'numeric',
+                        month: '2-digit',
+                        day: '2-digit',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+                    tmp += '      <p class="gbe-timestamp">' + timestamp + '</p><br>';        
+                } else {
+                    tmp += '      <p class="gbe-timestamp">' + value[3] + '</p><br>';
+                }
                 tmp += '      <p class="gbe-email">' + value[1] + '</p>';
                 tmp += '    </div>';
                 tmp += '    <p>' + value[2] + '</p>';
                 tmp += '</div>';
             });
-    
-            $('.gb-entries').prepend(tmp);
+        
+            $('.gb-entries').html(tmp);
         }
-    });
+    }
 }
 
 // the funny
