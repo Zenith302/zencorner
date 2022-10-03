@@ -34,6 +34,7 @@ body {
 	image-rendering: pixelated;
 	color: #000017;
 	background-color: #000017;
+	background-image: url(../img/meow.png);
 	
 	overflow-x: hidden;
 }
