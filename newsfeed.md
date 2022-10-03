@@ -1,5 +1,7 @@
 ### <update/> Site Updates! | 10/02/22
 
+- Added visual noise
+- Added classic web button to fit on most sites
 - Added glow effects to About Me page
 - Added tables and more details to About Me page
 
