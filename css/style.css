@@ -591,6 +591,100 @@ hr {
     text-shadow: 0 0 6px #6bffc6 !important;
 }
 
+/* my tech stuff */
+.tdiv { overflow: visible; max-width: 100%; }
+table {
+    min-width: 480px;
+    max-width: 720px;  
+    border: 4px ridge #da006d;
+    background-color: #310019;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 8px #D06;
+}
+tbody, th, td {
+    border: 1px solid #850042;
+    padding: 2px;
+	font-weight: 400;
+}
+th { 
+    background-color: #310019;
+    background-image: url('../img/dither-header.png');
+    font-size: 24px; 
+    text-shadow: 0px 0px 8px #F9C; 
+    border: none;
+}
+td {
+    font-size: 24px;
+}
+td > img, th > img {
+    width: 16px;
+    vertical-align: middle;
+}
+td#ico, th#ico > img { text-align: center; filter: drop-shadow(0px 0px 4px #F9C); }
+
+.parts {
+    max-height: 0;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+.parts > ul { padding: 0; list-style-type: none; list-style-image: none;}
+.parts > ul > li {
+    font-size: 24px;
+    text-shadow: none;
+}
+.parts > ul > li > img {
+    filter: drop-shadow(0px 0px 2px #F9C);
+}
+
+.partsbtn::before {
+    content: ':arrow_forward:  ';
+    font-size: 16px;
+}
+.partsbtn[open]::before {
+    content: '▼  ';
+}
+
+.partsbtn {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: none;
+    font-family: Comicoro;
+    font-size: 24px;
+    text-align: left;
+    background-color: #850042;
+    color: #FFF;
+    transition: color 0.3s, text-shadow 0.3s;
+    margin-left: -6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 8px;
+}
+.partsbtn:hover {
+    color: #f8c5ff;
+    text-shadow: 0px 0px 8px #E9F;
+}
+
+/* this is extremely excessive uwu */
+#glow-cat {filter:drop-shadow(0px 0px 4px #FEE)}
+#glow-dog {filter:drop-shadow(0px 0px 4px #D29F5B)}
+#glow-ase {filter:drop-shadow(0px 0px 4px #FFF)}
+#glow-fl {filter:drop-shadow(0px 0px 4px #F78C23)}
+#glow-nppp {filter:drop-shadow(0px 0px 4px #75D032)}
+#glow-sai {filter:drop-shadow(0px 0px 4px #ABC144)}
+#glow-real {filter:drop-shadow(0px 0px 4px #FF8)} /* REAL????? にや~ */
+#glow-vm {filter:drop-shadow(0px 0px 4px #F38B00)}
+#glow-zb {filter:drop-shadow(0px 0px 4px #0E0EDF)}
+#glow-hl1 {filter:drop-shadow(0px 0px 4px #F50)}
+#glow-mc {filter:drop-shadow(0px 0px 4px #765F3D)}
+#glow-rct2 {filter:drop-shadow(0px 0px 4px #4580E4)}
+#glow-portal {filter:drop-shadow(0px 0px 4px #6ED1FF)}
+#glow-mania {filter:drop-shadow(0px 0px 4px #30A0F0)}
+#glow-srb2 {filter:drop-shadow(0px 0px 4px #3232FF)}
+#glow-sims {filter:drop-shadow(0px 0px 4px #60EA05)}
+#glow-tmuf {filter:drop-shadow(0px 0px 4px #F3EB25)}
+
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
     .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; width: calc(100vw - 20px); height: 100%; }
