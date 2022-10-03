@@ -35,6 +35,7 @@ body {
 	color: #000017;
 	background-color: #000017;
 	background-image: url(../img/meow.png);
+	background-size: 256px;
 	
 	overflow-x: hidden;
 }
