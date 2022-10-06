@@ -17,7 +17,8 @@ var r_text = [
 	"Puerto Amongalas",
 	"pawwwwsssssss,,,,,",
 	"The included spork is certainly the utensil of all time"
-	"I love my Ashie <3"];
+	"I love my Ashie <3"
+];
 var fuckyou = Math.floor(16*Math.random())
 
 $("#scrollText").html(r_text[fuckyou]);
@@ -36,7 +37,7 @@ var r_grad = [
 	"linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%)",
 	"linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%)",
 	"linear-gradient(to bottom, #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%)"];
-var i = Math.floor(12*Math.random())
+var i = Math.floor(11*Math.random())
 
 
 // navigation button thuiwnug wuuwwuuwuuwuwuuwuwuwuwuwuwwuwuwuwuwuwuwuwu
