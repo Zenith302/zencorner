@@ -1,5 +1,9 @@
 ### <update/> Site Updates! | 10/02/22
 
+- Added more splash texts
+
+### <update/> Site Updates! | 10/02/22
+
 - Added visual noise
 - Added classic web button to fit on most sites
 - Added glow effects to About Me page

@@ -16,24 +16,28 @@ var r_text = [
 	"Quite.",
 	"Puerto Amongalas",
 	"pawwwwsssssss,,,,,",
-	"The included spork is certainly the utensil of all time"];
-var fuckyou = Math.floor(16*Math.random())
+	"The included spork is certainly the utensil of all time"
+	"I love my Ashie <3"
+	"if you see ];
+var fuckyou = Math.floor(17*Math.random())
 
 $("#scrollText").html(r_text[fuckyou]);
 
 // random gradient :3c
 var r_grad = [
-	"linear-gradient(to bottom, rgba(20,255,28,1) 0%,rgba(41,154,11,1) 100%)",
+	"linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%)",
 	"linear-gradient(to bottom, rgba(102,232,67,1) 0%,rgba(108,255,63,1) 50%,rgba(193,224,40,1) 51%,rgba(219,240,67,1) 100%)",
-	"linear-gradient(to bottom, rgba(243,197,189,1) 0%,rgba(232,108,87,1) 50%,rgba(234,40,3,1) 51%,rgba(255,102,0,1) 75%,rgba(199,34,0,1) 100%)",
-	"linear-gradient(to bottom, rgba(183,222,237,1) 0%,rgba(113,206,239,1) 50%,rgba(33,180,226,1) 51%,rgba(183,222,237,1) 100%)",
-	"linear-gradient(to bottom, rgba(252,236,252,1) 0%,rgba(249,157,220,1) 50%,rgba(253,137,215,1) 51%,rgba(255,53,194,1) 100%)",
-	"linear-gradient(to bottom, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%)",
-	"linear-gradient(to bottom, rgba(189,127,255,1) 0%,rgba(56,109,255,1) 100%)",
-	"linear-gradient(to bottom, rgba(203,96,179,1) 0%,rgba(193,70,161,1) 50%,rgba(168,0,119,1) 51%,rgba(219,54,164,1) 100%)",
-	"linear-gradient(to bottom, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%)",
-	"linear-gradient(to bottom, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 51%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%)"];
-var i = Math.floor(10*Math.random())
+	"linear-gradient(to bottom, #ea2803 0%,#ff6600 75%,#c72200 100%)",
+	"linear-gradient(to bottom, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%)",
+	"linear-gradient(to bottom, #fcecfc 0%,#f99ddc 50%,#fd89d7 51%,#ff35c2 100%)",
+	"linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%)",
+	"linear-gradient(to bottom, #bd7fff 0%,#386dff 100%)",
+	"linear-gradient(to bottom, #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%)",
+	"linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%)",
+	"linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%)",
+	"linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%)",
+	"linear-gradient(to bottom, #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%)"];
+var i = Math.floor(12*Math.random())
 
 
 // navigation button thuiwnug wuuwwuuwuuwuwuuwuwuwuwuwuwwuwuwuwuwuwuwuwu
