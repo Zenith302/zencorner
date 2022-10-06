@@ -16,7 +16,7 @@ var r_text = [
 	"Quite.",
 	"Puerto Amongalas",
 	"pawwwwsssssss,,,,,",
-	"The included spork is certainly the utensil of all time"
+	"The included spork is certainly the utensil of all time",
 	"I love my Ashie <3"
 ];
 var fuckyou = Math.floor(16*Math.random())
