@@ -17,9 +17,8 @@ var r_text = [
 	"Puerto Amongalas",
 	"pawwwwsssssss,,,,,",
 	"The included spork is certainly the utensil of all time"
-	"I love my Ashie <3"
-	"if you see ];
-var fuckyou = Math.floor(17*Math.random())
+	"I love my Ashie <3"];
+var fuckyou = Math.floor(16*Math.random())
 
 $("#scrollText").html(r_text[fuckyou]);
 
