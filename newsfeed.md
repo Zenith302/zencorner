@@ -6,6 +6,7 @@
 
 - Added Fun stuff page!
 - Added more splash texts!
+- Added more web buttons!
 
 ### <update/> Site Updates! | 10/02/22
 
