@@ -1,3 +1,12 @@
+### <news/> News Updates! | 10/10/22
+
+- Well the past week has certainly been a ride for me but I'm managing, a bit stressed over the practice SAT I have to do this wednesday but hey, not much I can do about it. Stay safe, wish me luck! --Zenith
+
+### <update/> Site Updates! | 10/10/22
+
+- Added Fun stuff page!
+- Added more splash texts!
+
 ### <update/> Site Updates! | 10/02/22
 
 - Added more splash texts
