@@ -20,9 +20,9 @@ var r_text = [
 	"I love my Ashie <3",
 	"sonik robo blsat 7",
 	"get a windows mobile pda I promise you will not regret it",
-	'<img src="img/Theta-delta.svg" alt="ΘΔ">'
+	'<img src="img/Theta-delta.svg" width="32px" alt="ΘΔ">'
 ];
-var fuckyou = Math.floor(17*)
+var fuckyou = Math.floor(17*Math.random())
 
 $("#scrollText").html(r_text[fuckyou]);
 
