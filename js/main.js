@@ -22,7 +22,7 @@ var r_text = [
 	"get a windows mobile pda I promise you will not regret it",
 	'<img src="img/Theta-delta.svg" width="32px" alt="ΘΔ">'
 ];
-var fuckyou = Math.floor(17*Math.random())
+var fuckyou = Math.floor(20*Math.random())
 
 $("#scrollText").html(r_text[fuckyou]);
 
