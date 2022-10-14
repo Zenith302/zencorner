@@ -19,9 +19,10 @@ var r_text = [
 	"The included spork is certainly the utensil of all time",
 	"I love my Ashie <3",
 	"sonik robo blsat 7",
-	"get a windows mobile pda I promise you will not regret it"
+	"get a windows mobile pda I promise you will not regret it",
+	'<img src="img/Theta-delta.svg" alt="ΘΔ">'
 ];
-var fuckyou = Math.floor(16*Math.random())
+var fuckyou = Math.floor(17*Math.random())
 
 $("#scrollText").html(r_text[fuckyou]);
 
