@@ -1,8 +1,8 @@
-### <nes/> More.. personal news | 10/14/22
+## <news/> More.. personal news | 10/14/22
 
 - I got covid wOOOOOO        okay for real this fuckin sucks, no idea who brought it home but now everybody in my house has it. honestly though I'm mostly worried about any of my cats getting it. Promise I'll do my best to recover quickly though..! --Zenith
 
-### <news/> News Updates! | 10/10/22
+## <news/> News Updates! | 10/10/22
 
 - Well the past week has certainly been a ride for me but I'm managing, a bit stressed over the practice SAT I have to do this wednesday but hey, not much I can do about it. Stay safe, wish me luck! --Zenith
 
