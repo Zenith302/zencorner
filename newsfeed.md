@@ -1,3 +1,7 @@
+### <update/> Site Updates! | 10/28/22
+
+- Fixed half the site not embedding properly
+
 ## <news/> More.. personal news | 10/14/22
 
 - I got covid wOOOOOO        okay for real this fuckin sucks, no idea who brought it home but now everybody in my house has it. honestly though I'm mostly worried about any of my cats getting it. Promise I'll do my best to recover quickly though..! --Zenith
