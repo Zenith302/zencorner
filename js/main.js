@@ -1,3 +1,5 @@
+// API LINK MEOW
+// https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,precipitation&daily=temperature_2m_max,temperature_2m_min,sunrise,sunset&current_weather=true&timezone=auto
 // uhmhm funny random text thing 
 //im so fluffy rn - ash
 var r_text = [
@@ -103,6 +105,22 @@ async function guestbookGET() {
             $('.gb-entries').html(tmp);
         }
     }
+}
+
+// funny weather things !! x3
+async function weatherGET() {
+	if ('geolocation' in navigator) {
+		alert('Geolocation is available! uwu');
+		navigator.geolocation.getCurrentPosition((position) => {
+			alert('latitude: ' + position.coords.latitude + ' longitude: ' + position.coords.longitude);
+		});
+	} else {
+		alert('geolocation is not available... sad meow');
+	}
+	const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,precipitation&daily=temperature_2m_max,temperature_2m_min,sunrise,sunset&current_weather=true&timezone=auto');
+	if (response.ok) {
+		alert('the thing worked');
+	}
 }
 
 // the funny
