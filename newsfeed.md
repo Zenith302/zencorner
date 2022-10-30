@@ -1,3 +1,7 @@
+### <update/> New Toys! | 10/30/2022
+
+- Added the first WIP version of my weather readout!
+
 ### <update/> Site Updates! | 10/28/22
 
 - Fixed half the site not embedding properly
