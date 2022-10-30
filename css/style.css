@@ -459,7 +459,7 @@ flexbr {
     resize: none;
 }
 
-.guestbook > p > button {
+.postButton {
     font-family: 'Comicoro';
     font-size: 32px;
     text-shadow: 0px 0px 4px #9c94ff;
@@ -474,10 +474,10 @@ flexbr {
     min-width: 75px;
     min-height: 23px;
 }
-.guestbook > p > button:hover {
+.postButton:hover {
     text-shadow: 0px 0px 6px #9c94ff, 0px 0px 8px #9c94ff;
 }
-.guestbook > p > button:active {
+.postButton:active {
     background: #5e1955;
     box-shadow: inset -2px -2px #ff8bd9, inset 2px 2px #4b0433, inset -4px -4px #9d517d, inset 4px 4px #712356;
 }
@@ -686,6 +686,13 @@ td#ico, th#ico > img { text-align: center; filter: drop-shadow(0px 0px 4px #F9C)
 #glow-srb2 {filter:drop-shadow(0px 0px 4px #3232FF)}
 #glow-sims {filter:drop-shadow(0px 0px 4px #60EA05)}
 #glow-tmuf {filter:drop-shadow(0px 0px 4px #F3EB25)}
+
+#temp { 
+  font-size: 32px;
+  position: relative;
+  bottom: 6px;
+  font-family: 'Lilian';
+}
 
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
