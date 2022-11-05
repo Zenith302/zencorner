@@ -727,7 +727,6 @@ iframe {
     color: #FAC;
     text-shadow: 0 0 6px #ff314e;
     transition: 0.5s;
-    bottom: 52px;
     position:relative;
 }
 .errorNotif > a:hover {
