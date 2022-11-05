@@ -718,7 +718,9 @@ iframe {
     color: #FBB;
     margin-top: 0px;
     margin-bottom: 0px;
+	width: 80%;
 }
+
 .errorNotif > a {
     text-decoration: none;
     float: right;
