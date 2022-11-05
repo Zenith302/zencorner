@@ -694,6 +694,14 @@ td#ico, th#ico > img { text-align: center; filter: drop-shadow(0px 0px 4px #F9C)
   font-family: 'Lilian';
 }
 
+iframe {
+    border: none;
+    margin-right: 4px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px #8f5eff;
+    margin-top: 8px;
+}
+
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
     .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; width: calc(100vw - 20px); height: 100%; }

@@ -57,9 +57,17 @@
 						<textarea id="msg" name="message" spellcheck="false" maxlength="140"></textarea>
 					</p>
 					<flexbr></flexbr>
+					<p><label id="message">Captcha</label></p>
+					<div style="display: flex; flex: 1; justify-content: right;">
+						<iframe width="320px" height="110px" src="https://api.ashiecorner.xyz/captcha/zencorner" title="Captcha"></iframe>
+					</div>
+					<flexbr></flexbr>
 					<p id="postBtn">
 						<button class="postButton" type="submit">Sign</button>
 					</p>
+					
+					<input id="caphash" type="hidden" name="captcha-hash">
+					<input id="captex" type="hidden" name="captcha-text">
 				</form> 
 				<hr>
 				<div class="gb-entries">
@@ -77,5 +85,12 @@
 		$("#msg").keyup(function(){
 			$("#count").text(140 - $(this).val().length);
 		});
+		window.addEventListener("message", (event) => {
+            if (event.data['0'] == '0') {
+                $('#captex').val(event.data.substr(1));
+            } else if (event.data['0'] == '1') {
+                $('#caphash').val(event.data.substr(1));
+            }
+        }, false);
 	</script>
 </html>
