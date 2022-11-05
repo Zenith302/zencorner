@@ -702,6 +702,41 @@ iframe {
     margin-top: 8px;
 }
 
+.errorNotif {
+    font-size: 32px;
+    background-color: #4a0000;
+    border-radius: 8px;
+    max-width: 640px;
+    background: linear-gradient(to right, #4a0000, #952036);
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 8px #740a18;
+}
+.errorNotif > p {
+    display: inline-block;
+    margin-left: 16px;
+    text-shadow: 0 0 6px #ff314e;
+    color: #FBB;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.errorNotif > a {
+    text-decoration: none;
+    float: right;
+    display: inline;
+    margin-right: 16px;
+    color: #FAC;
+    text-shadow: 0 0 6px #ff314e;
+    transition: 0.5s;
+    bottom: 52px;
+    position:relative;
+}
+.errorNotif > a:hover {
+    float: right;
+    margin-right: 16px;
+    color: rgb(255, 221, 170);
+    text-shadow: 0 0 12px #ffac68;
+}
+
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
     .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; width: calc(100vw - 20px); height: 100%; }
