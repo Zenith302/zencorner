@@ -22,9 +22,9 @@ var r_text = [
 	"I love my Ashie <3",
 	"sonik robo blsat 7",
 	"get a windows mobile pda I promise you will not regret it",
-	'<img src="img/Theta-delta.svg" width="32px" alt="ΘΔ">'
-	"Onion is an acronym for: Oh No",
-	"Incredible      it is spinning",
+	'<img src="img/Theta-delta.svg" width="32px" alt="ΘΔ">',
+	"Onion is an acronym for  Oh No",
+	"Incredible　　　　　　　it is spinning",
 	"This one patch of snow is comprised of more than 14 snow",
 	"Although many have speculated the moon is made of cheese, the moon is not real",
 	"No two snowflakes are the same unless you have a snow duplicator",
