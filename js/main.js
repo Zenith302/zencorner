@@ -28,7 +28,7 @@ var r_text = [
 	"This one patch of snow is comprised of more than 14 snow",
 	"Although many have speculated the moon is made of cheese, the moon is not real",
 	"No two snowflakes are the same unless you have a snow duplicator",
-	"my humor is broken"
+	"my humor is broken",
 	"pastel gore is yes"
 ];
 var fuckyou = Math.floor(27*Math.random())
