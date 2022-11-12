@@ -52,7 +52,7 @@ var r_grad = [
 ];
 var i = Math.floor(11*Math.random())
 
-$('#scrollText').css('background', r_grad[i]);
+$('.marquee').css('background-image', r_grad[i]);
 
 // navigation button thuiwnug wuuwwuuwuuwuwuuwuwuwuwuwuwwuwuwuwuwuwuwuwu
 var navState = false;
