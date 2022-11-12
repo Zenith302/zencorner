@@ -31,7 +31,7 @@ var r_text = [
 	"my humor is broken",
 	"pastel gore is yes"
 ];
-var fuckyou = Math.floor(27*Math.random())
+var fuckyou = Math.floor(27*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
@@ -52,6 +52,7 @@ var r_grad = [
 ];
 var i = Math.floor(11*Math.random())
 
+$('#scrollText').css('background', r_grad[i]);
 
 // navigation button thuiwnug wuuwwuuwuuwuwuuwuwuwuwuwuwwuwuwuwuwuwuwuwu
 var navState = false;
