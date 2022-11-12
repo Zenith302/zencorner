@@ -92,23 +92,5 @@
                 $('#caphash').val(event.data.substr(1));
             }
         }, false);
-		$(".postButton").click(function() {
-    var url = "https://api.ashiecorner.xyz/pygb/api/postEntry/zencorner";
-
-    $.ajax({
-       type: "POST",
-       url: url,
-       data: $(".guestbook").serialize(),
-       success: function(data) {
-           guestbookGET();
-           $('iframe').attr('src', 'https://api.ashiecorner.xyz/captcha/zencorner');
-       },
-       error: function(xhr, status, error) {
-           $("<div>").attr('class', 'errorNotif').append('<p>' + xhr.responseJSON['code'] + ': ' + xhr.responseJSON['description'] + '</p>').append('<a onclick="$(this).parent().remove()" href="#">X</a>').insertAfter($("#errAfter"))
-       }
-    });
-     
-    return false; // avoid to execute the actual submit of the form.
-});
 	</script>
 </html>
