@@ -298,14 +298,14 @@ function goInactive() {
 	}, 10000);
 	houseAwesstUwU = setTimeout(function() {
 		$('#houseArrest').remove();
-	}, 10500);
+		
+	}, 11500);
 }
  
 function goActive() {
     // do something
 	console.log('User is active on page!');
     clearTimeout(houseArrest);
-	clearTimeout(houseAwesstUwU);
     startTimer();
 }
 
