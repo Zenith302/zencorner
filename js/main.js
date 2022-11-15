@@ -37,7 +37,7 @@ $("#scrollText").html(r_text[fuckyou]);
 
 // random gradient :3c
 var r_grad = [
-	"linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%)",
+	"linear-gradient(to bottom, rgba(0,217,0,1) 0%,rgba(219,240,67,1) 100%)", //green/yellow spinball gradient
 	"linear-gradient(to bottom, rgba(102,232,67,1) 0%,rgba(108,255,63,1) 50%,rgba(193,224,40,1) 51%,rgba(219,240,67,1) 100%)",
 	"linear-gradient(to bottom, #ea2803 0%,#ff6600 75%,#c72200 100%)",
 	"linear-gradient(to bottom, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%)",
@@ -48,9 +48,11 @@ var r_grad = [
 	"linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%)",
 	"linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%)",
 	"linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#b68d4c 51%,#e9d4b3 100%)",
-	"linear-gradient(to bottom, #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%)"
-];
-var i = Math.floor(11*Math.random())
+	"linear-gradient(to bottom, #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%)",
+	"linear-gradient(to bottom, rgba(255,72,0,1) 0%,rgba(255,253,0,1) 100%)" //red/yellow spinball graident
+	"linear-gradient(to bottom, rgba(255,253,0,1) 5%,rgba(255,72,0,1) 15%,rgba(0,253,255,1) 25%,rgba(0,217,0,1) 35%,rgba(255,253,0,1) 45%,rgba(255,72,0,1) 55%,rgba(0,253,255,1) 65%,rgba(0,217,0,1) 75%,rgba(255,253,0,1) 85%,rgba(255,72,0,1) 95%);"
+];  //^^^ rainbow spinball gradient
+var i = Math.floor(13*Math.random())
 
 $('.marquee').css('background-image', r_grad[i]);
 
@@ -209,6 +211,12 @@ async function weatherGET() {
 // the funny
 $(document).ready(function() {
 	$("#scrollText").css("backgroundImage", r_grad[i]);
+	
+	// sonc spjbal:thhubmsup:
+	setTimeout(function() {
+		$('text-scroller').prepend($('<span>').text('YO, MOVE IT!').addClass('marquee').css('animation',
+		'0.125s step-start 0s 8 normal both running flashtext'));
+	}, 15000);
 	// day of week bullshit
 	const d = new Date();
 	let day = d.getDay();

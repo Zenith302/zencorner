@@ -88,6 +88,7 @@ ul > li {
 	background: linear-gradient(to bottom, rgba(231,218,248,0.45) 0%,rgba(186,167,239,0.45) 4%,rgba(169,137,233,0.45) 11%,rgba(153,120,230,0.45) 18%,rgba(144,99,227,0.45) 21%,rgba(139,93,225,0.45) 25%,rgba(123,67,221,0.45) 29%,rgba(119,60,220,0.45) 32%,rgba(98,39,215,0.45) 36%,rgba(95,35,199,0.45) 43%,rgba(75,28,162,0.45) 54%,rgba(69,26,154,0.45) 61%,rgba(61,23,143,0.45) 64%,rgba(65,23,137,0.45) 79%,rgba(61,21,131,0.45) 82%,rgba(61,22,134,0.45) 89%,rgba(66,25,147,0.45) 93%,rgba(95,38,210,0.45) 96%,rgba(26,9,59,0.45) 100%);
 	backdrop-filter: blur(4px);
 	line-height: 100%;
+	text-align: center;
 }
 .marquee {
 	line-height: 32px;
@@ -737,6 +738,13 @@ iframe {
     color: rgb(255, 221, 170);
     text-shadow: 0 0 12px #ffac68;
 }
+
+/* funny spinball thingssss ii wanna make out with my wife -ash */
+@keyframes flashtext {
+	from {opacity: 0.0;}
+	to {opacity: 1.0;}
+} /* 0.125s */
+/* animation: 0.125s step-start 0s 8 normal both running flashtext; */
 
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
