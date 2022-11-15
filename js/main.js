@@ -27,7 +27,7 @@ var r_text = [
 	'<img src="img/incrediblespinning.gif" title="it is spinning" width="16px"> Incredible　　　　　　　it is spinning',
 	"This one patch of snow is comprised of more than 14 snow",
 	"Although many have speculated the moon is made of cheese, the moon is not real",
-	"No two snowflakes are the same unless you have a snow duplicator",
+	"No two snowflakes are the same　　　　unless you have a snow duplicator",
 	"my humor is broken",
 	"pastel gore is yes"
 ];
