@@ -439,9 +439,32 @@ news:before {
 }
 .mobilenav > div > a {
  color: #ffd9ff;
+ position:relative;
 text-shadow: 0px 0px 6px #8662e3;
   text-decoration: none;
   padding-left: 8px;
+  display: inline-block;
+}
+.mobilenav > div > a:before {
+	content:' ';
+	display:block;
+	position:absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 32px;
+	opacity: 0.4;
+	image-rendering: auto;
+	background-image: url('../img/portabledeviceimageoverlaysignifyingaphysicalbutton.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-right: 8px;
+	margin: 0;
+	z-index: -2;
+}
+.start-button {
+	display:inline-block;
+	width:meow;
 }
 
 /* guestbook things */
