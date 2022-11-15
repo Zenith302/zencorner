@@ -292,8 +292,6 @@ function goInactive() {
 			.addClass('marquee')
 			.css('animation', '0.5s steps(8, end) 0s 2 normal both running coloranim')
 			.css('background-image', 'linear-gradient(to bottom, rgba(0,217,0,1) 0%,rgba(219,240,67,1) 100%)')
-			.css('position', 'relative')
-			.css('left', '0.5px')
 		);
 	}, 10000);
 }
