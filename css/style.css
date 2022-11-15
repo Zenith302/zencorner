@@ -436,7 +436,7 @@ news:before {
 	overflow-x: auto;
 	overflow-y: hidden;
 	white-space: nowrap;
-	line-height: 32px;
+	line-height: 36px;
 }
 .mobilenav > div > a {
  color: #ffd9ff;
