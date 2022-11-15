@@ -414,6 +414,25 @@ news:before {
     filter: drop-shadow(0px 0px 6px #99ffee) drop-shadow(0px 0px 6px #99ffee);
 }
 
+/* mobile mininav */
+.mobilenav {
+	overflow: hidden;
+	height: 32px;
+	margin-top: -3px;
+	font-family: Scr18;
+	font-size: 18px;
+	backdrop-filter: blur(4px);
+	line-height: 100%;
+	text-align: center;
+	position: fixed;
+	top: 3px;
+	left: -256px;
+	visibility: hidden;
+	width: 100vw;
+	z-index: -4;
+	background: linear-gradient(to top, #ff8bf26e 0%,#8528a087 50%, #31133abd 100%);
+}
+
 /* guestbook things */
 
 flexbr {
@@ -768,8 +787,10 @@ iframe {
 		width: 100vw;
 		z-index: -4;
 	}
-	
-	
+	.mobilenav {
+		left: 0px;
+		visibility: visible;
+	}
 }
 
 /* to better fit large screens, double scale literally everything lmao */
