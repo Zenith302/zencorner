@@ -214,8 +214,12 @@ $(document).ready(function() {
 	
 	// sonc spjbal:thhubmsup:
 	setTimeout(function() {
-		$('.text-scroller').prepend($('<span></span>').text('YO, MOVE IT!').addClass('marquee').css('animation',
-		'0.125s linear 0s 8 normal both running flashtext'));
+		$('.text-scroller').prepend($('<span></span>')
+		.text('YO, MOVE IT!')
+		.addClass('marquee')
+		.css('animation', '0.125s linear 0s 8 normal both running flashtext')
+		.css('background-image', 'linear-gradient(to bottom, rgba(255,72,0,1) 0%,rgba(255,253,0,1) 100%)')
+		);
 	}, 15000);
 	// day of week bullshit
 	const d = new Date();
