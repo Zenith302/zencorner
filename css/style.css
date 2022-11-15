@@ -432,6 +432,19 @@ news:before {
 	z-index: -4;
 	background: linear-gradient(to top, #ff8bf26e 0%,#8528a087 50%, #31133abd 100%);
 }
+.mobilenav > div { 
+	width: fit-content;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	line-height: 32px;
+}
+.mobilenav > div > a {
+ color: #ffd9ff;
+text-shadow: 0px 0px 6px #8662e3;
+  text-decoration: none;
+  padding-left: 8px;
+}
 
 /* guestbook things */
 
