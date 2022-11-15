@@ -214,7 +214,7 @@ $(document).ready(function() {
 	
 	// sonc spjbal:thhubmsup:
 	setTimeout(function() {
-		$('text-scroller').prepend($('<span>').text('YO, MOVE IT!').addClass('marquee').css('animation',
+		$('.text-scroller').prepend($('<span></span>').text('YO, MOVE IT!').addClass('marquee').css('animation',
 		'0.125s step-start 0s 8 normal both running flashtext'));
 	}, 15000);
 	// day of week bullshit
