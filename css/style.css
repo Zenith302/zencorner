@@ -748,7 +748,7 @@ iframe {
 /* animation: 0.125s step-start 0s 8 normal both running flashtext; */
 @keyframes coloranim {
 	from { background-position: top 0px left 0px; }
-	to { background-position: top 32px left 0px; }
+	to { background-position: top -32px left 0px; }
 }
 
 

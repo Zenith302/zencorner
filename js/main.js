@@ -274,6 +274,7 @@ function resetTimer(e) {
     goActive();
 }
 var houseArrest; // zen told me to call this variable house arrest
+var houseAwesstUwU; // this is my (ash's's) fault
 
 function goInactive() {
 	console.log('user has gone inactive qwq');
@@ -290,16 +291,21 @@ function goInactive() {
 		$('.text-scroller').prepend($('<span></span>')
 			.text('HEY, ANYBODY HOME?')
 			.addClass('marquee')
-			.css('animation', '0.5s steps(8, end) 0s 2 normal both running coloranim')
+			.css('animation', '1s steps(8, end) 0s 1 normal both running coloranim')
 			.css('background-image', 'linear-gradient(to bottom, rgba(0,217,0,1) 0%,rgba(219,240,67,1) 100%)')
+			.attr('id', 'houseArrest')
 		);
 	}, 10000);
+	houseAwesstUwU = setTimeout(function() {
+		$('#houseArrest').remove();
+	}, 10500);
 }
  
 function goActive() {
     // do something
 	console.log('User is active on page!');
     clearTimeout(houseArrest);
+	clearTimeout(houseAwesstUwU);
     startTimer();
 }
 
