@@ -284,8 +284,10 @@ function goInactive() {
 		.css('animation', '0.125s steps(8, end) 0s 8 normal both running flashtext')
 		.css('background-image', 'linear-gradient(to bottom, rgba(255,72,0,1) 0%,rgba(255,253,0,1) 100%)')
 	);
+	$('#scrollText').css('visibility', 'hidden');
 	setTimeout(function() {
 		$('.text-scroller > span').remove();
+		$('#scrollText').css('visibility', 'visible');
 	}, 3000);
 	houseArrest = setTimeout(function() {
 		$('.text-scroller').prepend($('<span></span>')
@@ -295,11 +297,12 @@ function goInactive() {
 			.css('background-image', 'linear-gradient(to bottom, rgba(0,217,0,1) 0%,rgba(219,240,67,1) 100%)')
 			.attr('id', 'houseArrest')
 		);
+		$('#scrollText').css('visibility', 'hidden');
+		setTimeout(function() {
+			$('#houseArrest').remove();
+			$('#scrollText').css('visibility', 'visible');
+		}, 1500);
 	}, 10000);
-	houseAwesstUwU = setTimeout(function() {
-		$('#houseArrest').remove();
-		
-	}, 11500);
 }
  
 function goActive() {
