@@ -277,7 +277,7 @@ var houseArrest; // zen told me to call this variable house arrest
 var houseAwesstUwU; // this is my (ash's's) fault
 
 function goInactive() {
-	console.log('user has gone inactive qwq');
+	console.log('user has gone inactive nuuuuu XwX');
     $('.text-scroller').prepend($('<span></span>')
 		.text('YO, MOVE IT!')
 		.addClass('marquee')
@@ -304,7 +304,6 @@ function goInactive() {
  
 function goActive() {
     // do something
-	console.log('User is active on page!');
     clearTimeout(houseArrest);
     startTimer();
 }
