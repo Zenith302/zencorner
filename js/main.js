@@ -212,18 +212,6 @@ async function weatherGET() {
 $(document).ready(function() {
 	$("#scrollText").css("backgroundImage", r_grad[i]);
 	
-	// sonc spjbal:thhubmsup:
-	setTimeout(function() {
-		$('.text-scroller').prepend($('<span></span>')
-		.text('YO, MOVE IT!')
-		.addClass('marquee')
-		.css('animation', '0.125s steps(8, end) 0s 8 normal both running flashtext')
-		.css('background-image', 'linear-gradient(to bottom, rgba(255,72,0,1) 0%,rgba(255,253,0,1) 100%)')
-		);
-	}, 15000);
-	setTimeout(function() {
-		$('.text-scroller > span').remove();
-	}, 18000);
 	// day of week bullshit
 	const d = new Date();
 	let day = d.getDay();
@@ -262,5 +250,57 @@ function navSwipeLeft() {
 
 Hammer(document).on("swipeleft", navSwipeLeft);
 Hammer(document).on("swiperight", navSwipeRight);
+
+var timeoutID;
+function setup() {
+    this.addEventListener("mousemove", resetTimer, false);
+    this.addEventListener("mousedown", resetTimer, false);
+    this.addEventListener("keypress", resetTimer, false);
+    this.addEventListener("DOMMouseScroll", resetTimer, false);
+    this.addEventListener("mousewheel", resetTimer, false);
+    this.addEventListener("touchmove", resetTimer, false);
+    this.addEventListener("MSPointerMove", resetTimer, false);
+    startTimer();
+}
+setup();
+function startTimer() {
+    // wait 2 seconds before calling goInactive
+    timeoutID = window.setTimeout(goInactive, 15000);
+}
+ 
+function resetTimer(e) {
+    window.clearTimeout(timeoutID);
+ 
+    goActive();
+}
+var houseArrest; // zen told me to call this variable house arrest
+
+function goInactive() {
+	console.log('user has gone inactive qwq');
+    $('.text-scroller').prepend($('<span></span>')
+		.text('YO, MOVE IT!')
+		.addClass('marquee')
+		.css('animation', '0.125s steps(8, end) 0s 8 normal both running flashtext')
+		.css('background-image', 'linear-gradient(to bottom, rgba(255,72,0,1) 0%,rgba(255,253,0,1) 100%)')
+	);
+	setTimeout(function() {
+		$('.text-scroller > span').remove();
+	}, 3000);
+	houseArrest = setTimeout(function() {
+		$('.text-scroller').prepend($('<span></span>')
+			.text('ANYBODY HOME?')
+			.addClass('marquee')
+			.css('animation', '0.5s steps(8, end) 0s 2 normal both running coloranim')
+			.css('background-image', 'linear-gradient(to bottom, rgba(0,217,0,1) 0%,rgba(219,240,67,1) 100%)')
+		);
+	}, 10000);
+}
+ 
+function goActive() {
+    // do something
+	console.log('User is active on page!');
+    clearTimeout(houseArrest);
+    startTimer();
+}
 
 });

@@ -746,6 +746,11 @@ iframe {
 	to {opacity: 1.0;}
 } /* 0.125s */
 /* animation: 0.125s step-start 0s 8 normal both running flashtext; */
+@keyframes coloranim {
+	from { background-position: top 0px left 0px; }
+	to { background-position: top 32px left 0px; }
+}
+
 
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
