@@ -222,7 +222,7 @@ $(document).ready(function() {
 		);
 	}, 15000);
 	setTimeout(function() {
-		$('.text-scroller > span').delete();
+		$('.text-scroller > span').remove();
 	}, 16000);
 	// day of week bullshit
 	const d = new Date();
