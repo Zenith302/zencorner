@@ -1,3 +1,7 @@
+### <update/> Americano Funky Action! | 11/14/2022
+
+- included Sonic Spinball functionality
+
 ### <update/> New Toys! | 10/30/2022
 
 - Added the first WIP version of my weather readout!

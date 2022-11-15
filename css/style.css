@@ -390,7 +390,7 @@ news:before {
 /* uwu nya mew mew :3 */
 .navButton { /* normally invisible on desktop */
     position: fixed;
-    top: 16px;
+    top: 64px;
     left: -256px;
     background-color: #741291;
     padding-top: 12px;
@@ -754,12 +754,22 @@ iframe {
 
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
-    .page-content { margin-left: 0px; padding-right: 0px; padding-top: 64px; transition: filter 0.5s; width: calc(100vw - 20px); height: 100%; }
+    .page-content { margin-left: 0px; padding-right: 0px; padding-top: 120px; transition: filter 0.5s; width: calc(100vw - 20px); height: 100%; }
 	.navButton { left: 3px; transition: left 0.5s; visibility: visible; }
     .card { width: calc(100vw - 64px); }
 	#navOpen { filter: blur(6px); }
 	
 	.feed > h1 { width: inherit; }
+	
+	.text-scroller {
+		position: fixed;
+		top: 3px;
+		left: 0px;
+		width: 100vw;
+		z-index: -4;
+	}
+	
+	
 }
 
 /* to better fit large screens, double scale literally everything lmao */
