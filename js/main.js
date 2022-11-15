@@ -117,7 +117,7 @@ async function guestbookGET() {
     }
 }
 
-(".postButton").click(function() {
+$(".postButton").click(function() {
     $.ajax({
        type: "POST",
        url: "https://api.ashiecorner.xyz/pygb/api/postEntry/zencorner",
