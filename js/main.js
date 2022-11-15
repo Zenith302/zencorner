@@ -221,6 +221,9 @@ $(document).ready(function() {
 		.css('background-image', 'linear-gradient(to bottom, rgba(255,72,0,1) 0%,rgba(255,253,0,1) 100%)')
 		);
 	}, 15000);
+	setTimeout(function() {
+		$('.text-scroller > span').delete();
+	}, 16000);
 	// day of week bullshit
 	const d = new Date();
 	let day = d.getDay();
