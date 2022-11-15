@@ -415,7 +415,6 @@ news:before {
 
 /* mobile mininav */
 .mobilenav {
-	overflow: hidden;
 	height: 32px;
 	margin-top: -3px;
 	font-family: Scr18;
@@ -438,8 +437,7 @@ news:before {
 	width: calc(100% - 45px);
 	display: inline-block;
 	position: relative;
-	top: -8px;
-	left: 7px;
+	left: 45px;
 }
 .mobilenav > div > a {
  color: #ffd9ff;
@@ -475,7 +473,7 @@ text-shadow: 0px 0px 6px #8662e3;
 	background-image: url('../img/zenstart.png');
 	background-size: 54px 162px;
 	display: inline-block;
-	position: relative;
+	position: absolute;
 	background-position: -7px 0px;
 }
 .start-button:hover {
