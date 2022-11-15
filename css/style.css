@@ -465,6 +465,10 @@ text-shadow: 0px 0px 6px #8662e3;
 	margin: 0;
 	z-index: -2;
 }
+.mobilenav > div > a.active:before {
+	opacity: 0.6 !important;
+	filter: brightness(2.25);
+}
 .start-button {
 	top:-7px;
 	left:2px;
