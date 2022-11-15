@@ -1,6 +1,10 @@
+### <update/> Mobile stuff! | 11/15/2022
+
+- Added new mobile navbar!! Visitors can now scroll the virtual taskbar for easier mobile navigation, and tap the start button to return to the landing page!~
+
 ### <update/> Americano Funky Action! | 11/14/2022
 
-- included Sonic Spinball functionality
+- Added Sonic Spinball functionality
 
 ### <update/> New Toys! | 10/30/2022
 
