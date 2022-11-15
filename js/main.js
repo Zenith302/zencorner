@@ -223,7 +223,7 @@ $(document).ready(function() {
 	}, 15000);
 	setTimeout(function() {
 		$('.text-scroller > span').remove();
-	}, 17000);
+	}, 18000);
 	// day of week bullshit
 	const d = new Date();
 	let day = d.getDay();
