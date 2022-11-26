@@ -83,7 +83,7 @@ function feedGET() {
 
 // guestbook things! ^-^
 async function guestbookGET() {
-    const response = await fetch('https://api.ashiecorner.xyz/pygb/api/getEntries/zencorner', {mode: 'cors'});
+    const response = await fetch('https://api.ashiecorner.xyz/guestbook/getEntries/zencorner', {mode: 'cors'});
     if (response.ok) {
         let json = await response.json();
         if (json) {
@@ -120,7 +120,7 @@ async function guestbookGET() {
 $(".postButton").click(function() {
     $.ajax({
        type: "POST",
-       url: "https://api.ashiecorner.xyz/pygb/api/postEntry/zencorner",
+       url: "https://api.ashiecorner.xyz/guestbook/postEntry/zencorner",
        data: $(".guestbook").serialize(),
        success: function(data) {
            guestbookGET();
