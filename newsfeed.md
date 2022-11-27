@@ -1,3 +1,7 @@
+### <update/> Hitcounter! | 11/26/22
+
+- Added a new hitcounter on the sidebar!
+
 ### <update/> Mobile stuff! | 11/15/2022
 
 - Added new mobile navbar!! Visitors can now scroll the virtual taskbar for easier mobile navigation, and tap the start button to return to the landing page!~
