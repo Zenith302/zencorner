@@ -76,6 +76,16 @@ function navButton() {
 //I love ash so fucking mushc oh my   gg od gspoopsgopgsgsepioispobniohopji[e4ayut08934iw[34w5etuj8i9o
 // i love you too <3333333333
 
+async function hcGET() {
+    const response = await fetch('https://api.ashiecorner.xyz/hc/gh/zencorner', {mode: 'cors'});
+    if (response.ok) {
+        let json = await response.json();
+        if (json) {
+            $('#hits').text(json['hits'] + ' hits');
+        }
+    }
+}
+
 // uwu newsfeed :3333
 function feedGET() {
     fetch('newsfeed.md').then(response => response.text()).then(result => $('.feed').html(snarkdown(result)));
@@ -310,5 +320,7 @@ function goActive() {
     clearTimeout(houseArrest);
     startTimer();
 }
+
+hcGET();
 
 });
