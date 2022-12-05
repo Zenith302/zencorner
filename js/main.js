@@ -311,7 +311,7 @@ function goInactive() {
 		setTimeout(function() {
 			$('#houseArrest').remove();
 			$('#scrollText').css('visibility', 'visible');
-		}, 300);
+		}, 3000);
 	}, 10000);
 }
  
