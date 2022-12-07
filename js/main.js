@@ -116,7 +116,7 @@ async function guestbookGET() {
                 } else {
                     tmp += '      <p class="gbe-timestamp">' + value[3] + '</p><br>';
                 }
-                tmp += '      <p class="gbe-email">' + value[1] + '</p>';
+                tmp += '      <p class="gbe-email">' + atob(value[1]) + '</p>';
                 tmp += '    </div>';
                 tmp += '    <p>' + value[2] + '</p>';
                 tmp += '</div>';
