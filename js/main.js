@@ -46,6 +46,7 @@ var r_404 = [
 // random 404 images
 var r_404i = [
 	"/img/zen404.svg",
+    "/img/zen404-2.svg",
 	"/img/yeag.svg"
 ];
 

@@ -58,9 +58,9 @@
 	<script src="/js/hammer.min.js"></script>
 	<script src="/js/main.js"></script>
 	<script type="text/javascript">
+		var i = Math.floor(3*Math.random());
+		$('#404img').attr('src', r_404i[i]);
 		$(function() {
-			var i = Math.floor(2*Math.random());
-			$('#404img').attr('src', r_404i[i]);
 			var i = Math.floor(4*Math.random());
 			var audio = new Audio(r_404[i]);
 			audio.play();
