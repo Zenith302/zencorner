@@ -46,7 +46,7 @@ var r_404 = [
 // random 404 images
 var r_404i = [
 	"/img/zen404.svg",
-	"/res/yeag.svg"
+	"/img/yeag.svg"
 ];
 
 // random gradient :3c
