@@ -35,6 +35,12 @@ var fuckyou = Math.floor(27*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
+// random 404 audios
+var r_404 = [
+	"/res/MacCrash.mp3"
+	"/res/shatter.mp3"
+]
+
 // random gradient :3c
 var r_grad = [
 	"linear-gradient(to bottom, rgba(0,217,0,1) 0%,rgba(219,240,67,1) 100%)", //green/yellow spinball gradient
