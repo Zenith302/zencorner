@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-h1 { font-size: 28px; color: #f1ccff;}
+h1 { font-size: 32px; color: #f1ccff;}
 h1#err > img { filter: drop-shadow(0px 0px 6px #FF99CC); vertical-align: middle; }
 #err { background: linear-gradient(to right, rgb(102, 0, 0) 0%,rgb(102, 0, 0) 50%,#55006600 100%); color: #ffd0d7; }
 h2 { font-size: 25px;}
