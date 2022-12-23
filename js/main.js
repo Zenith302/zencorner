@@ -37,9 +37,9 @@ $("#scrollText").html(r_text[fuckyou]);
 
 // random 404 audios
 var r_404 = [
-	"/res/MacCrash.mp3"
+	"/res/MacCrash.mp3",
 	"/res/shatter.mp3"
-]
+];
 
 // random gradient :3c
 var r_grad = [
