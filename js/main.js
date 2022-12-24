@@ -40,7 +40,10 @@ var r_404 = [
 	"/res/mac.mp3",
 	"/res/shatter.mp3",
 	"/res/xp.mp3",
-	"/res/7.mp3"
+	"/res/7.mp3",
+	"/res/tada.mp3",
+	"/res/chord.mp3",
+	"/res/sosumi.mp3"
 ];
 
 // random 404 images
