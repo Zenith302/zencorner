@@ -44,7 +44,8 @@ var r_404 = [
 	"/res/tada.mp3",
 	"/res/chord.mp3",
 	"/res/sosumi.mp3",
-	"/res/touhou.mp3"
+	"/res/touhou.mp3",
+	"/res/mc.mp3"
 ];
 
 // random 404 images
