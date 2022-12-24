@@ -834,6 +834,11 @@ iframe {
     text-shadow: 0 0 12px #ffac68;
 }
 
+.subnote {
+	font-size: 22px !important;
+	color: #c397d4;
+}
+
 /* funny spinball thingssss ii wanna make out with my wife -ash */
 @keyframes flashtext {
 	from {opacity: 0.0;}
