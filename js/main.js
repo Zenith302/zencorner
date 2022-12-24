@@ -43,7 +43,8 @@ var r_404 = [
 	"/res/7.mp3",
 	"/res/tada.mp3",
 	"/res/chord.mp3",
-	"/res/sosumi.mp3"
+	"/res/sosumi.mp3",
+	"/res/touhou.mp3"
 ];
 
 // random 404 images
@@ -70,7 +71,7 @@ var r_grad = [
 	"linear-gradient(to bottom, rgba(255,72,0,1) 0%,rgba(255,253,0,1) 100%)", //red/yellow spinball graident
 	"linear-gradient(to bottom, rgba(255,253,0,1) 5%,rgba(255,72,0,1) 15%,rgba(0,253,255,1) 25%,rgba(0,217,0,1) 35%,rgba(255,253,0,1) 45%,rgba(255,72,0,1) 55%,rgba(0,253,255,1) 65%,rgba(0,217,0,1) 75%,rgba(255,253,0,1) 85%,rgba(255,72,0,1) 95%)"
 ];  //^^^ rainbow spinball gradient
-var i = Math.floor(13*Math.random())
+var i = Math.floor(14*Math.random())
 
 $('.marquee').css('background-image', r_grad[i]);
 
