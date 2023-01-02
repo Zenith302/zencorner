@@ -577,6 +577,29 @@ flexbr {
     background: #5e1955;
     box-shadow: inset -2px -2px #ff8bd9, inset 2px 2px #4b0433, inset -4px -4px #9d517d, inset 4px 4px #712356;
 }
+
+.btn {
+    font-family: 'Comicoro';
+    font-size: 32px;
+    text-shadow: 0px 0px 4px #9c94ff;
+    transition: text-shadow 0.5s;
+    color: #fff;
+    box-sizing: border-box;
+    border: none;
+    background: #79256e;
+    box-shadow: inset -2px -2px #4b0433,inset 2px 2px #ff8bd9,inset -4px -4px #712356,inset 4px 4px #9d517d;
+    border-radius: 0;
+    
+    min-width: 75px;
+    min-height: 23px;
+}
+.btn:hover {
+    text-shadow: 0px 0px 6px #9c94ff, 0px 0px 8px #9c94ff;
+}
+.btn:active {
+    background: #5e1955;
+    box-shadow: inset -2px -2px #ff8bd9, inset 2px 2px #4b0433, inset -4px -4px #9d517d, inset 4px 4px #712356;
+}
 #postBtn { justify-content: right; margin-right: 4px }
 /*fuorkc yoy btich*/
 #name {
