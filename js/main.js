@@ -229,6 +229,7 @@ $(".postButton").click(function() {
 
 // funny weather things !! x3
 async function weatherGET() {
+	// mew meowwmeow meorwmrwm mrwo,,,,,,,,,,,,,,,, im sleepy
 	const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=' + $('#lat').val() + '&longitude=' + $('#long').val() + '&hourly=temperature_2m,precipitation&daily=temperature_2m_max,temperature_2m_min,sunrise,sunset&current_weather=true&timezone=auto');
 	if (response.ok) {
 		alert('the thing worked');
@@ -238,6 +239,17 @@ async function weatherGET() {
 		} // uwu
 	}
 }
+
+function locGET() {
+	if (navigator.geolocation) {
+		navigator.geolocation.getCurrentPosition(function(position) {
+			$('#lat').attr('value', position.coords.latitude);
+			$('#long').attr('value', position.coords.longitude);
+		});
+	} else { 
+		alert('geolocation unsupported or permission denied. :3c');
+	}
+}    
 
 
 // the funny
