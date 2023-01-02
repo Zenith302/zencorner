@@ -247,7 +247,8 @@ async function weatherGET() {
 			}
 			console.log('weathercode: '+weathercode + ', is day: ' + isDay);
             switch (weathercode) {
-				case '0' || '1': // clear sky/mainly clear
+				case '0':
+				case '1': // clear sky/mainly clear
 					$('#weatherico').attr('src', isDay ? 'img/weather-sun.png' : 'img/weather-moon.png');
 					break;
 				case '2': // partly cloudy
@@ -256,25 +257,39 @@ async function weatherGET() {
 				case '3': // overcast
 					$('#weatherico').attr('src', 'img/weather-clouds.png');
 					break;
-				case '45' || '48': // fog
+				case '45':
+				case '48': // fog
 					$('#weatherico').attr('src', isDay ? 'img/weather-fog.png' : 'img/weather-moon-fog.png');
 					break;
-				case '51' || '56': // drizzle/freezing drizzle light
+				case '51':
+				case '56': // drizzle/freezing drizzle light
 					$('#weatherico').attr('src', 'img/weather-rain-little.png');
 					break;
-				case '53' || '55' || '57': // drizzle/freezing moderate/dense
+				case '53':
+				case '55':
+				case '57': // drizzle/freezing moderate/dense
 					$('#weatherico').attr('src', 'img/weather-rain.png');
 					break;
-				case '61' || '66' || '80': // light rain
+				case '61':
+				case '66':
+				case '80': // light rain
 					$('#weatherico').attr('src', 'img/weather-rain-little.png');
 					break;
-				case '63' || '65' || '67' || '81' || '82': // moderate/dense rain
+				case '63':
+				case '65':
+				case '67':
+				case '81':
+				case '82': // moderate/dense rain
 					$('#weatherico').attr('src', 'img/weather-rain.png');
 					break;
 				case '71': // light snow
 					$('#weatherico').attr('src', 'img/weather-snow-little.png');
 					break;
-				case '73' || '75' || '77' || '85' || '86': // moderate/dense snow
+				case '73':
+				case '75':
+				case '77':
+				case '85':
+				case '86': // moderate/dense snow
 					$('#weatherico').attr('src', 'img/weather-snow.png');
 					break;
 				case '95': // thunderstorm
