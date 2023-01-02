@@ -245,7 +245,7 @@ async function weatherGET() {
 			if (current > sunrise && current < sunset) {
 				isDay = true;
 			}
-				
+			console.log('weathercode: '+weathercode + ', is day: ' + isDay);
             switch (weathercode) {
 				case '0' || '1': // clear sky/mainly clear
 					$('#weatherico').attr('src', isDay ? 'img/weather-sun.png' : 'img/weather-moon.png');
