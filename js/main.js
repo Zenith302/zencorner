@@ -237,7 +237,46 @@ async function weatherGET() {
         if (json) {
 			$('#temp').html(json['current_weather']['temperature'] + '°C ' + Math.round(100*(json['current_weather']['temperature']*1.8+32))/100 + '°F');
             const weathercode = json['current_weather']['weathercode'];
-            if (weathercode == )
+			const sunrise = new Date(json['daily']['sunrise'][0]);
+			const sunset = new Date(json['daily']['sunset'][0]);
+			const current = new Date();
+			
+			let isDay = false;
+			if (current > sunrise && current < sunset) {
+				isDay = true;
+			}
+			alert('IS DAY:' + isDay);
+				
+            switch (weathercode) {
+				case '0' || '1': // clear sky/mainly clear
+					break;
+				case '2': // partly cloudy
+					break;
+				case '3': // overcast
+					break;
+				case '45' || '48': // fog
+					break;
+				case '51' || '56': // drizzle/freezing drizzle light
+					break;
+				case '53' || '55' || '57': // drizzle/freezing moderate/dense
+					break;
+				case '61' || '66' || '80': // light rain
+					break;
+				case '63' || '65' || '67' || '81' || '82': // moderate/dense rain
+					break;
+				case '71': // light snow
+					break;
+				case '73' || '75' || '77' || '85' || '86': // moderate/dense snow
+					break;
+				case '95': // thunderstorm
+					break;
+				case '96': // thunderstorm/slight hail
+					break;
+				case '99': // thunderstorm/heavy hail
+					break;
+				default:
+					break;
+			}
 		} // uwu
 	}
 }
