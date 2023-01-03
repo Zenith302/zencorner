@@ -1,3 +1,11 @@
+### <update/> Weather! 1/2/2023
+
+- Weather readout will now change it's icon to display your current weather conditions!
+
+### <news/> Happy New Year!! | 1/1/2023
+
+- Happy new year everybody!!! here's to another year of having fun and being meow even in thr toughest of times >w<
+
 ### <update/> Hitcounter! | 11/26/2022
 
 - Added a new hitcounter on the sidebar!
