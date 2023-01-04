@@ -29,9 +29,10 @@ var r_text = [
 	"Although many have speculated the moon is made of cheese, the moon is not real",
 	"No two snowflakes are the same　　　　unless you have a snow duplicator",
 	"my humor is broken",
-	"pastel gore is yes"
+	"pastel gore is yes",
+	"にゃ～"
 ];
-var fuckyou = Math.floor(27*Math.random());
+var fuckyou = Math.floor(28*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
