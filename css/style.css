@@ -446,7 +446,7 @@ news:before {
 	left: -256px;
 	visibility: hidden;
 	width: 100vw;
-	z-index: -4;
+	z-index: 1;
 	background: linear-gradient(to top, #ff8bf26e 0%,#8528a087 50%, #31133abd 100%);
 }
 .mobilenav > div { 
