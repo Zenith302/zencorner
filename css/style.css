@@ -40,7 +40,7 @@ body {
 
 .page-background {
 	background-image: url(../img/nyamrao.gif);
-	background-size: 256px;
+	background-size: 512px;
 	image-rendering: pixelated;
 	position: fixed;
 	top: 0;
