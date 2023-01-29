@@ -1,4 +1,8 @@
-### <update/> Weather! 1/2/2023
+### <update/> woo new background | 1/29/2023
+
+- totally not just minecraft sculk texture lol lmao
+
+### <update/> Weather! | 1/2/2023
 
 - Weather readout will now change it's icon to display your current weather conditions!
 
