@@ -8,7 +8,7 @@
 
 ## <news/> Happy New Year!! | 1/1/2023
 
-- Happy new year everybody!!! here's to another year of having fun and being meow even in thr toughest of times >w<
+- Happy new year everybody!!! here's to another year of having fun and being meow even in thr toughest of times >w< --Zenith
 
 ### <update/> Hitcounter! | 11/26/2022
 
