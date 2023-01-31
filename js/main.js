@@ -30,9 +30,10 @@ var r_text = [
 	"No two snowflakes are the same　　　　unless you have a snow duplicator",
 	"my humor is broken",
 	"pastel gore is yes",
-	"にゃ～"
+	"にゃ～",
+	"delta p weeheehee"
 ];
-var fuckyou = Math.floor(28*Math.random());
+var fuckyou = Math.floor(29*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
