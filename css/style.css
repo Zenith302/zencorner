@@ -221,26 +221,23 @@ ul > li {
 
 /* feed stuff */
 .feed { font-size: 24px; }
+.feed > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 48px;
+}
 
-.feed > h3 {
+.post { font-size: 21px; width: 75%; }
+
+.update {
 	background: linear-gradient(to right, #321291FF 0%, #123291FF 50%, #12329100 100%);
 	text-shadow: 0px 0px 8px #99ccff;
 	color: #d9ccff;
-	width: 75%;
 }
-update:before {
-    content: url(../img/globe.png);
-}
-
-.feed > h2 {
-	font-size: 21px;
+.blog {
 	text-shadow: 0 0 6px #ffa366;
 	color: #ffffd9;
 	background: linear-gradient(to right,#d23c00 0,#ae5400 50%,#661d0000 100%);
-	width: 75%;
-}
-news:before {
-    content: url(../img/blog.png);
 }
 
 .refresh-feed {

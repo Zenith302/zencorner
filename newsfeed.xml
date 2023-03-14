@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+    <title>zencorner blog!!</title>
+    <link>https://zencorner.xyz/</link>
+    <description>Zen's corner of the internet, home to her silly projects and doodles</description>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>woo new background</title>
+        <description>totally not just minecraft sculk texture lol lmao</description>
+    </item>
+    
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>Weather!</title>
+        <description>Weather readout will now change it's icon to display your current weather conditions!</description>
+    </item>
+    
+    <item>
+        <category>Blog</category>
+        <pubDate></pubDate>
+
+        <title>Happy New Year!!</title>
+        <description>Happy new year everybody!!! here's to another year of having fun and being meow even in thr toughest of times >w< --Zenith</description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>Hitcounter!</title>
+        <description>Added a new hitcounter on the sidebar!</description>
+    </item>
+    
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>Mobile stuff!</title>
+        <description>Added new mobile navbar!! Visitors can now scroll the virtual taskbar for easier mobile navigation, and tap the start button to return to the landing page!~</description>
+    </item>
+    
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>Americano Funky Action!</title>
+        <description>Added Sonic Spinball functionality</description>
+    </item>
+    
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>New Toys!</title>
+        <description>Added the first WIP version of my weather readout!</description>
+    </item>
+    
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>Site Updates!</title>
+        <description>Fixed half the site not embedding properly</description>
+    </item>
+    
+    <item>
+        <category>Blog</category>
+        <pubDate></pubDate>
+
+        <title>More.. personal news</title>
+        <description>I got covid wOOOOOO        okay for real this fuckin sucks, no idea who brought it home but now everybody in my house has it. honestly though I'm mostly worried about any of my cats getting it. Promise I'll do my best to recover quickly though..! --Zenith</description>
+    </item>
+    
+    <item>
+        <category>Blog</category>
+        <pubDate></pubDate>
+
+        <title>News Updates!</title>
+        <description>Well the past week has certainly been a ride for me but I'm managing, a bit stressed over the practice SAT I have to do this wednesday but hey, not much I can do about it. Stay safe, wish me luck! --Zenith</description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>Site Updates!</title>
+        <description><ul>
+            <li>Added Fun stuff page!</li>
+            <li>Added more splash texts!</li>
+            <li>Added more web buttons!</li>
+        </ul></description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>Site Updates!</title>
+        <description>Added more splash texts</description>
+    </item>
+    
+    <item>
+        <category>Site Update</category>
+        <pubDate></pubDate>
+
+        <title>Site Updates!</title>
+        <description><ul>
+            <li>Added visual noise</li>
+            <li>Added classic web button to fit on most sites</li>
+            <li>Added glow effects to About Me page</li>
+            <li>Added tables and more details to About Me page</li>
+        </ul></description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate>Thu, 28 Sep 2022 21:29:00 EDT</pubDate>
+
+        <title>Site Updates!</title>
+        <description>Added and finalized the guestbook, including spam and code execution prevention! (CRS and Nano if you somehow find a way past this I swear-)</description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate>Sun, 24 Sep 2022 20:44:00 EDT</pubDate>
+
+        <title>Site Updates!</title>
+        <description>Added my Manjaro partition to the about me page</description>
+    </item>
+
+    <item>
+        <category>Blog</category>
+        <pubDate>Sun, 24 Sep 2022 17:40:00 EDT</pubDate>
+
+        <title>News Updates!</title>
+        <description>Hey everybody, glad to see you all have been following the website's progress! Just want to push an announcement so you know why updates are going to start slowing down. Autumn break is about to end and I'm gonna have to go back to classes for a while, making consistent site updates particularly difficult. Hope you understand, and have a great day! --Zenith</description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate>Sun, 24 Sep 2022 17:35:00 EDT</pubDate>
+
+        <title>Site updates!</title>
+        <description><ul>
+            <li>Added more to Links+Chats</li>
+            <li>Fixed broken link leading to Sonc's site</li>
+            <li>Under construction message added to the Art+Music page</li>
+            <li>Added better parity between Ash and I's sites (again)</li>
+        </ul></description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate>Sat, 23 Sep 2022 17:25:00 EDT</pubDate>
+
+        <title>Site updates!</title>
+        <description><ul>
+            <li>Streamlined the newsfeed process</li>
+            <li>Added a link to view the raw newsfeed data</li>
+            <li>Better scaling and mobile support</li>
+            <li>Fixed some formatting issues</li>
+        </ul></description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate>Fri, 22 Sep 2022 15:56:00 EDT</pubDate>
+
+        <title>Site updates!</title>
+        <description><ul>
+            <li>Added third index art piece for Wednesday</li>
+            <li>Added code parity between Ash and I's websites</li>
+            <li>Added feed refresh button</li>
+            <li>Added different colors and icons for clarity</li>
+            <li>Changed image filtering; only vector images have anti-alias</li>
+            <li>About Me page finished</li>
+            <li>Links+Chats page finished</li>
+            <li>site now scales to resolutions higher than 1080i</li>
+            <li>Removed Herobrine</li>
+        </ul></description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate>Mon, 12 Sep 2022 00:00:00 EDT</pubDate>
+
+        <title>Site updates!</title>
+        <description><ul>
+            <li>added more fancy glow and fade effects</li>
+            <li>reworked the marquee background</li>
+        </ul></description>
+    </item>
+
+    <item>
+        <category>Site Update</category>
+        <pubDate>Sun, 11 Sep 2022 15:58:00 EDT</pubDate>
+
+        <title>The site is live!!</title>
+        <link>https://zencorner.xyz</link>
+        <description>Check out what little I have at the start QwQ</description>
+    </item>
+</channel>
+
+</rss>
