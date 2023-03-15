@@ -240,6 +240,14 @@ ul > li {
 	background: linear-gradient(to right,#d23c00 0,#ae5400 50%,#661d0000 100%);
 }
 
+.subnote {
+    font-size: 17px;
+    color: #b7a8e4;
+}
+.blog > .subnote {
+    color: #dfcfb0;
+}
+
 .refresh-feed {
     font-family: 'Comicoro';
     font-size: 24px;
