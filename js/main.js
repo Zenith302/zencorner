@@ -111,8 +111,35 @@ async function hcGET() {
 }
 
 // uwu newsfeed :3333
-function feedGET() {
-    fetch('newsfeed.md').then(response => response.text()).then(result => $('.feed').html(snarkdown(result)));
+function feedGET(recent) {
+    $.get('newsfeed.xml', function(rss) {
+        var tmp = '';
+        $(rss).find("item").each(function(i) {
+            // exit loop on 5th entry if in recent feed mode
+            if (recent == true && i == 5) { return false; }
+            var element = $(this);
+
+            switch (element.find("category").text()) {
+                case 'Site Update':
+                    // site update post stuff awawa
+                    tmp += '<h1 class="post update"><img src="img/globe-green.png"> ' + element.find('title').text() + ' <span class="subnote"> | ' + element.find('pubDate').text() + '</span></h1>';
+                    break;
+                case 'Blog':
+                    // blog post stuff
+                    tmp += '<h1 class="post blog"><img src="img/blog.png"> ' + element.find('title').text() + ' <span class="subnote"> | ' + element.find('pubDate').text() + '</span></h2>';
+                    break;
+                default:
+                    console.log('invalid category');
+                    break;
+            }
+            var desc = element.find("description").html();
+            if (typeof desc != 'undefined') {
+                tmp += '<p>' + desc + '</p>';
+            }
+            tmp += '<br>';
+        });
+        $('.feed').html(tmp);
+    });
 }
 
 // guestbook things! ^-^
