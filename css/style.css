@@ -249,7 +249,7 @@ ul > li {
     color: #dfcfb0;
 }
 
-.refresh-feed {
+.raw-feed {
     font-family: 'Comicoro';
     font-size: 24px;
     text-shadow: 0px 0px 4px #ffa366;
@@ -266,11 +266,13 @@ ul > li {
     padding: 0 12px;
     margin-top: 3px;
     vertical-align: top;
+    text-decoration: none;
+    display: inline-block;
 }
-.refresh-feed:hover {
+.raw-feed:hover {
     text-shadow: 0px 0px 8px #ffa366, 0px 0px 8px #ffa366;
 }
-.refresh-feed:active {
+.raw-feed:active {
     background: #64287c;
     box-shadow: inset -2px -2px #e2b0ff, inset 2px 2px #3b044b, inset -4px -4px #ca86df, inset 4px 4px #783b80;
 }
