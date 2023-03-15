@@ -240,11 +240,12 @@ ul > li {
 	background: linear-gradient(to right,#d23c00 0,#ae5400 50%,#661d0000 100%);
 }
 
-.subnote {
-    font-size: 17px;
+.update > .subnote {
+    font-size: 16px!important;
     color: #b7a8e4;
 }
 .blog > .subnote {
+    font-size: 16px!important;
     color: #dfcfb0;
 }
 
