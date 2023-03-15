@@ -835,7 +835,7 @@ td#ico, th#ico > img { text-align: center; filter: drop-shadow(0px 0px 4px #F9C)
 iframe {
     border: none;
     margin-right: 4px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0px 0px 12px #8f5eff;
     margin-top: 8px;
 }
