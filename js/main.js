@@ -87,9 +87,11 @@ function navButton() {
         // close nav
         $(".sidebar").css('left', '');
 		$(".page-content").attr('id', '');
+		$(".start-button").attr('style', '');
     } else {
         $(".sidebar").css('left', '0px');
 		$(".page-content").attr('id', 'navOpen');
+		$(".start-button").attr('style', 'background-position: -7px 54px');
     }
 	navState = !navState;
 }
