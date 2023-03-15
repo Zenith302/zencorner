@@ -116,6 +116,7 @@ ul > li {
 	color: #f1ccff;
 	display: block;
 	text-align: center;
+    padding-top: 8px;
 }
 .sidebar > ol {
 	list-style-type: none;
@@ -464,7 +465,7 @@ ul > li {
 	left: -256px;
 	visibility: hidden;
 	width: 100vw;
-	z-index: 1;
+	z-index: 2;
 	background: linear-gradient(to top, #ff8bf26e 0%,#8528a087 50%, #31133abd 100%);
 }
 .mobilenav > div { 
@@ -835,7 +836,7 @@ td#ico, th#ico > img { text-align: center; filter: drop-shadow(0px 0px 4px #F9C)
 iframe {
     border: none;
     margin-right: 4px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 0px 12px #8f5eff;
     margin-top: 8px;
 }
@@ -895,7 +896,14 @@ iframe {
 
 @media only screen and (max-width: 600px) {
     .sidebar { left: -256px; transition: left 0.5s; }
-    .page-content { margin-left: 0px; padding-right: 0px; padding-top: 120px; transition: filter 0.5s; width: calc(100vw - 20px); height: 100%; }
+    .sidebar > a { padding-top: 64px; }
+    .sidebar > span {
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 4px;
+    }
+    .sidebar > ol { margin-top: 4px; }
+    .page-content { margin-left: 0px; padding-right: 0px; padding-top: 96px; transition: filter 0.5s; width: calc(100vw - 20px); height: 100%; }
 	.navButton { left: 3px; transition: left 0.5s; visibility: visible; }
     .card { width: calc(100vw - 64px); }
 	#navOpen { filter: blur(6px); }
@@ -908,7 +916,7 @@ iframe {
 		top: 35px;
 		left: 0px;
 		width: 100vw;
-		z-index: -4;
+		z-index: 1;
 	}
 	.mobilenav {
 		left: 0px;
