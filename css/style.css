@@ -229,6 +229,15 @@ ul > li {
 }
 
 .post { font-size: 21px; width: 75%; }
+.post > img {
+    position: relative;
+    top: 2px;
+    filter: drop-shadow(0px 0px 4px #99ccff);
+}
+.blog > img {
+    filter: drop-shadow(0px 0px 4px #ffa366);
+}
+
 
 .update {
 	background: linear-gradient(to right, #321291FF 0%, #123291FF 50%, #12329100 100%);
