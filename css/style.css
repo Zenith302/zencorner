@@ -286,6 +286,14 @@ ul > li {
     background: #64287c;
     box-shadow: inset -2px -2px #e2b0ff, inset 2px 2px #3b044b, inset -4px -4px #ca86df, inset 4px 4px #783b80;
 }
+.raw-feed > img {
+	position: relative;
+	top: 4px;
+}
+.raw-feed > span {
+	position: relative;
+	bottom: 3px;
+}
 
 .welcome {
 	max-width: 100%; 
