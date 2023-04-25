@@ -903,7 +903,7 @@ iframe {
 
 
 @media only screen and (max-width: 600px) {
-    .sidebar { left: -256px; transition: left 0.5s; }
+    .sidebar { left: -260px; transition: left 0.5s; }
     .sidebar > a { padding-top: 64px; }
     .sidebar > span {
         padding-top: 0;
