@@ -5,7 +5,7 @@
 var r_text = [
 	"nyanya!",
 	"sdfasdklfgsdfgsgoinrfoenlvbd",
-	"Did you know? Zenith has NINE cats",
+	"Did you know? Zenith has EIGHT cats",
 	"Any weather is skirt weather if you can stand the cold",
 	"Notepad++ is certainly the program of all time",
 	"Reject human, embrace meow",
