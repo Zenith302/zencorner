@@ -542,6 +542,106 @@ text-shadow: 0px 0px 6px #8662e3;
 	background-position: -7px 54px;
 }
 
+/* hobbies page stuff */
+.gallery {
+    margin: 10px;
+    margin-left: -10px;
+}
+.gallery .box {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.box > figure {
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0px 0px 8px #FF99CC;
+    transition: box-shadow 0.5s;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width : 600px) {
+    .gallery .box {
+        width: 50%;
+    }
+}
+@media only screen and (min-width : 800px) {
+    .gallery .box {
+        width: 33.3%;
+    }
+}
+@media only screen and (min-width : 1000px) {
+   .gallery .box {
+      width: 25%;
+   }
+}
+@media only screen and (min-width : 1600px) {
+    .gallery .box {
+       width: 17.5%;
+    }
+ }
+
+.box > figure > img {
+    image-rendering: auto;
+    display: block;
+    width: 100%;
+    height: 256px;
+    transition: transform 0.5s;
+    object-fit: cover;
+}
+
+#lbl {
+    position: absolute;
+    margin: 10px;
+    font-size: 32px;
+    line-height: 32px;
+    width: calc(100% - 20px);
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s;
+    backdrop-filter: blur(4px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.box > figure:hover { box-shadow: 0px 0px 16px #FF99CC; }
+
+.box > figure:hover #lbl { opacity: 1; }
+
+.box > figure:hover > img {
+    transform: scale(1.05);
+}
+
+.caption {
+    position: fixed;
+    text-align: center;
+    bottom: 48px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    color: #FFF;
+    width: 100%;
+    text-shadow: 0px 0px 8px #FF99CC;
+}
+.caption > span {
+    background-color: rgba(25, 0, 35, 0.5);
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: rgba(0,0,0,0); /* css why do you do this to me */
+    border-style: solid;
+    backdrop-filter: blur(4px); /* ash making sites be like excessive use of modern css features */
+}
+.caption > span > img {
+    filter: drop-shadow(0px 0px 4px #FF99CC);
+}
+
 
 /* guestbook things */
 
