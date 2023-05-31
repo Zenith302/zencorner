@@ -5,7 +5,14 @@
     <title>zencorner blog!!</title>
     <link>https://zencorner.xyz/</link>
     <description>Zen's corner of the internet, home to her silly projects and doodles</description>
+
+<item>
+	<category>Site Update</category>
+	<pubDate>Tue, 30 May 2023, 11:10:30 EST</pubDate>
 	
+	<title>Better layout and new stuff woo!!!</title>
+	<description>art page now has the same galery view that my wifey's has and now there's a separate music page because cramming that much in a single page is gonna be a bad idea in the long run</description>
+
 <item>
 	<category>Blog</category>
 	<pubDate>Tue, 23 May 2023 3:40:21 EST</pubDate>
