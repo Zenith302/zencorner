@@ -3,6 +3,7 @@
 	<head>
 		<title>Zen Hobbies - ZenCorner</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/featherlight.min.css">
 		<link rel="icon" href="img/favicon.png">
 		<link rel="alternate" type="application/rss+xml" title="RSS"
       href="https://zencorner.xyz/newsfeed.xml">
@@ -23,7 +24,8 @@
 				</div>
 				<div class="mobilenav"><button class="start-button" onclick="navButton()"></button><div>
 					<a href="about-me.html"><img src="img/heart.png"> About me!</a>
-					<a class="active" href="hobbies.html"><img src="img/color-swatches.png"> Art + Music</a>
+					<a class="active" href="art.html"><img src="img/color-swatches.png"> Art</a>
+					<a href="audio.html"><img src="img/speaker.png"> Music</a>
 					<a href="fun-stuff.html"><img src="img/television-test.png"> Fun stuff!</a>
 					<a href="projects.html"><img src="img/disks-black.png"> Projects</a>
 					<a href="contacts.html"><img src="img/balloons-box.png"> Links + Chats</a>
@@ -33,13 +35,14 @@
 				<span>Zenith's cozy corner<br>&nbsp;of the internet</span>
 				<ol>
 					<li><a href="about-me.html"><img src="img/heart.png"> About me!</a></li>
-					<li><a href="hobbies.html"><img src="img/color-swatches.png"> Art + Music</a></li>
+					<li><a href="art.html"><img src="img/color-swatches.png"> Art</a></li>
+					<li><a href="audio.html"><img src="img/speaker.png"> Music</a></li>
 					<li><a href="fun-stuff.html"><img src="img/television-test.png"> Fun stuff!</a></li>
 					<li><a href="projects.html"><img src="img/disks-black.png"> Projects</a></li>
 					<li><a href="contacts.html"><img src="img/balloons-box.png"> Links + Chats</a></li>
 					<li><a href="news.html"><img src="img/application-blog.png"> News + Updates!</a></li>
 					<li><a href="guestbook.html"><img src="img/book-open-bookmark.png"> Sign my guestbook!</a></li>
-					<br>
+					<br> 
 				</ol>
 				<div class="sidebar-footer">
 					<a class="center-badge" href="https://ashiecorner.xyz"><img src="img/ashiecorner.png" alt="AshieCorner"></a>
@@ -51,11 +54,24 @@
 			</nav>
 			
 			<div class="page-content">
-				<p class="construction"> <img src="img/construction.gif"> This page is under construction, check back soon! <img src="img/construction.gif"> </p>
+				<h1>Art</h1>
+				<div class="gallery">
+					<a class="box" href="#" data-featherlight="art/observation.png">
+						<figure><img src="art/observation-thumb.jpg" alt="Observation"><div id="lbl">Observation</div></figure>
+					</a>
+				</div>
 			</div>
 		</div>
 	</body>
 	<script src="js/jquery.js"></script>
 	<script src="js/hammer.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/featherlight.min.js"></script>
+	<script type="text/javascript">
+        // add image caption at bottom of screen and download icon to featherlight lightboxes :3
+        $.featherlight.prototype.afterContent = function () {
+            var caption = this.$currentTarget.find('#lbl').html();
+            if (caption) { $('<div class="caption">').html('<span>' + caption + '</span>').appendTo(this.$instance.find('.featherlight-content')); }
+        }
+    </script>
 </html>
