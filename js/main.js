@@ -362,6 +362,9 @@ $(document).ready(function() {
 		case 3: //wednesday
 			$(".indexImg").attr("src", "img/ZenIndex3.png");
 			break;
+		case 4: //thursday
+			$(".indexImg").attr("src", "img/AlphaIndex4.png");
+			break;
 		case 6: // saturday placeholder
 			$(".indexImg").attr("src", "img/placeholderindexreturn.png");
 			break;
