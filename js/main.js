@@ -31,9 +31,10 @@ var r_text = [
 	"my humor is broken",
 	"pastel gore is yes",
 	"にゃ～",
-	"delta p weeheehee"
+	"delta p weeheehee",
+	"khjgfdfghjkgjfgjhhjkkjhgjhjgfhjk　　　　um"
 ];
-var fuckyou = Math.floor(29*Math.random());
+var fuckyou = Math.floor(30*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
