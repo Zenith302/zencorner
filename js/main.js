@@ -11,30 +11,38 @@ var r_text = [
 	"Reject human, embrace meow",
 	"Check out my Discord it's gay and funny",
 	"incrediblegaming",
-	"I have   very money         I have 1 Roys-roys 1 lombargine machine",
+	"I have　　very money　　　　　I have 1 Roys-roys 1 lombargine machine",
 	"Ashie was here",
 	"Zenith was here",
-	"play Sonic Spinball or I'll cut you",
+	"Play Sonic Spinball or I'll cut you",
 	"Quite.",
 	"Puerto Amongalas",
 	"pawwwwsssssss,,,,,",
 	"The included spork is certainly the utensil of all time",
 	"I love my Ashie <3",
 	"sonik robo blsat 7",
-	"get a windows mobile pda I promise you will not regret it",
+	"Get a windows mobile pda I promise you will not regret it",
 	'<img src="img/Theta-delta.svg" width="32px" alt="ΘΔ">',
 	"Onion is an acronym for  Oh No",
 	'<img src="img/incrediblespinning.gif" title="it is spinning" width="16px"> Incredible　　　　　　　it is spinning',
 	"This one patch of snow is comprised of more than 14 snow",
 	"Although many have speculated the moon is made of cheese, the moon is not real",
 	"No two snowflakes are the same　　　　unless you have a snow duplicator",
-	"my humor is broken",
-	"pastel gore is yes",
+	"My humor is broken",
+	"Pastel gore is yes",
 	"にゃ～",
-	"delta p weeheehee",
-	"khjgfdfghjkgjfgjhhjkkjhgjhjgfhjk　　　　um"
+	"Delta P, weeheehee",
+	"khjgfdfghjkgjfgjhhjkkjhgjhjgfhjk　　　　um",
+	"Don't waste your time or time will waste you",
+	"What is a man? A miserable little pile of secrets! But enough talk, have at you!",
+	"Laying in my gay little blanket nest doing my gay little computer things",
+	"Are you here for the scrampling?",
+	"Help the Atari fixation is taking hold",
+	"I'm a Playstation gal, always have been and always will",
+	"god I'm such a silly little gayass",
+	"Fix your posture and drink some water, we healthy today"
 ];
-var fuckyou = Math.floor(30*Math.random());
+var fuckyou = Math.floor(38*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
