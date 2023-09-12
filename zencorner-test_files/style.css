@@ -1,0 +1,129 @@
+/* font defs uwu */
+\@font-face {
+	font-family: Scr10;
+	src: url(../fnt/Scr10.ttf);
+}
+@font-face {
+	font-family: Scr12;
+	src: url(../fnt/Scr12.ttf);
+}
+@font-face {
+	font-family: Scr14;
+	src: url(../fnt/Scr14.ttf);
+}
+@font-face {
+	font-family: Scr16;
+	src: url(../fnt/Scr16.ttf);
+}
+@font-face {
+	font-family: Scr18;
+	src: url(../fnt/Scr18.ttf);
+}
+@font-face {
+	font-family: 'HC Maru Gothic';
+	src: url(../fnt/marugothic.ttf);
+}
+
+/* variables */
+:root {
+	--vista-taskbar: linear-gradient(to bottom, #54545477 0%,#b4b5b577 3%,#8b8c8c77 7%,#86878777 14%,#7d7e7e77 21%,#48494a77 48%,#1b1d1f77 52%,#18191b77 93%,#17191a77 97%,#13141577 100%);
+	--vista-taskbar-opaque: linear-gradient(to bottom, #545454cc 0%,#b4b5b5cc 3%,#8b8c8ccc 7%,#868787cc 14%,#7d7e7ecc 21%,#48494acc 48%,#1b1d1fcc 52%,#18191bcc 93%,#17191acc 97%,#131415cc 100%);
+}
+
+/* hehe modify html element default styles :3c */
+body {
+	margin: 0;
+	font-family: Scr12;
+	font-smooth: never;
+	color: #000017;
+	background-color: #000017;
+}
+.text-scroller {
+	height:32px;
+	width:100%;
+	margin-top: -5px;
+	background: var(--vista-taskbar-opaque);
+	line-height: 100%;
+}
+.marquee {
+	line-height: 32px;
+	white-space: nowrap;
+	width: 100%;
+	background-image: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+h1 {
+	font-family: 'HC Maru Gothic';
+	font-size: 28px;
+}
+
+/* page containers */
+.page-container {
+	box-sizing: border-box;
+}
+.page-content {
+	font-family: Scr14;
+	font-size: 14px;
+	padding: 20px;	
+	margin-left: 260px;
+	color: white;
+}
+
+/* sidebar stuff */
+.sidebar {
+	overflow: auto;
+	position: fixed;
+	width: 256px;
+	float: left;
+	height: 100%;
+	font-family: Scr18;
+	font-size: 18px;
+	background-image: url(/img/sidebartest.gif);
+	color: white;
+	border-right: 4px #5555AA solid;
+}
+.sidebar > span {
+	text-shadow: 1px 0px 0px #000017, 0px 1px 0px #000017, -1px 0px 0px #000017, 0px -1px 0px #000017;
+	display: block;
+	text-align: center;
+}
+
+.sidebar-footer {
+	position: absolute;
+	bottom: 8px;
+	left: 0px;
+	width: 100%;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 0px 0px #000017, 0px 1px 0px #000017, -1px 0px 0px #000017, 0px -1px 0px #000017;
+}
+
+/* navmenu stuff */
+.nav-buttons {
+	list-style-type: none;
+	text-align: left;
+	padding-left: 0px;
+	font-family: 'HC Maru Gothic';
+}
+.nav-button {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.nav-button:hover {
+	background: var(--vista-taskbar);
+}
+.nav-button > a {
+	color: #FFFFFF;
+	text-shadow: 1px 0px 0px #000017, 0px 1px 0px #000017, -1px 0px 0px #000017, 0px -1px 0px #000017;
+	text-decoration: none;
+	padding-left: 10px;
+}
+.nav-button > a:hover {
+	color: #CBA1FF;
+}
+
+.welcome {
+	max-width: 100%; 
+	height: auto;
+}
