@@ -4,7 +4,7 @@
 //im so fluffy rn - ash
 var r_text = [
 	"nyanya!",
-	"sdfasdklfgsdfgsgoinrfoenlvbd",
+	'<a href="https://zencorner.xyz/sdfasdklfgsdfgsgoinrfoenlvbd">sdfasdklfgsdfgsgoinrfoenlvbd</a>',
 	"Did you know? Zenith has EIGHT cats",
 	"Any weather is skirt weather if you can stand the cold",
 	"Notepad++ is certainly the program of all time",
