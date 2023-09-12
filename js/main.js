@@ -361,7 +361,7 @@ $(document).ready(function() {
 	// day of week bullshit
 	const d = new Date();
 	let day = d.getDay();
-	switch (day) {
+	/* WE ANNIVERSARY IN THIS BITCH switch (day) {
 		case 1: // monday
 			$(".indexImg").attr("src", "img/ZenIndex1.png");
 			break;
@@ -380,7 +380,8 @@ $(document).ready(function() {
 		default: //  fallback pic
 			$(".indexImg").attr("src", "img/ZenIndex1.png");
 			break;
-	}
+	} */
+	$(".indexImg").attr("src", "img/1year.png"); // "OuHHH u shouldnt set the image in js if its just gona be static set it in the  html" shut up i do what i want
 	
 // mobile nav swipe actions
 
