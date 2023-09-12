@@ -1,27 +1,27 @@
 /* font defs uwu */
 \@font-face {
 	font-family: Scr10;
-	src: url(../fnt/Scr10.ttf);
+	src: url(../fnt/Scr10.woff2);
 }
 @font-face {
 	font-family: Scr12;
-	src: url(../fnt/Scr12.ttf);
+	src: url(../fnt/Scr12.woff2);
 }
 @font-face {
 	font-family: Scr14;
-	src: url(../fnt/Scr14.ttf);
+	src: url(../fnt/Scr14.woff2);
 }
 @font-face {
 	font-family: Scr16;
-	src: url(../fnt/Scr16.ttf);
+	src: url(../fnt/Scr16.woff2);
 }
 @font-face {
 	font-family: Scr18;
-	src: url(../fnt/Scr18.ttf);
+	src: url(../fnt/Scr18.woff2);
 }
 @font-face {
 	font-family: 'HC Maru Gothic';
-	src: url(../fnt/marugothic.ttf);
+	src: url(../fnt/marugothic.woff2);
 }
 
 /* variables */
