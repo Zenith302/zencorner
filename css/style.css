@@ -998,6 +998,18 @@ iframe {
 	color: #c397d4;
 }
 
+.topdecor {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background-image: url("../img/topdecor.png");
+	background-size: 256px 64px;
+	background-repeat: repeat-x;
+	height: 64px;
+	width: 100%;
+}
+	
+
 /* funny spinball thingssss ii wanna make out with my wife -ash */
 @keyframes flashtext {
 	from {opacity: 0.0;}
