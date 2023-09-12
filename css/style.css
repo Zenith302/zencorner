@@ -1050,6 +1050,7 @@ iframe {
 		left: 0px;
 		visibility: visible;
 	}
+	.topdecor { top: 64px; }
 }
 
 /* to better fit large screens, double scale literally everything lmao */
