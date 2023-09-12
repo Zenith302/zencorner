@@ -1008,8 +1008,14 @@ iframe {
 	height: 64px;
 	width: 100%;
 }
-	
 
+.eyesofthevoid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+	
 /* funny spinball thingssss ii wanna make out with my wife -ash */
 @keyframes flashtext {
 	from {opacity: 0.0;}
