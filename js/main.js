@@ -40,9 +40,10 @@ var r_text = [
 	"Help the Atari fixation is taking hold",
 	"I'm a Playstation gal, always have been and always will",
 	"god I'm such a silly little gayass",
-	"Fix your posture and drink some water, we healthy today"
+	"Fix your posture and drink some water, we healthy today",
+	"This! Is! Sparta!"
 ];
-var fuckyou = Math.floor(38*Math.random());
+var fuckyou = Math.floor(39*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
