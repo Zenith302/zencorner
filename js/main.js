@@ -46,8 +46,12 @@ var r_text = [
 	"Trackmania Speed Race",
 	"'Where only the cute survive' is my favorite website subtitle",
 	"Sleepiest girl alive",
+	"AMIGAAAAAAAAAAAAAAAAAAAAAAAAA",
+	"words are so very, very hard",
+	"brain full of microplastics WEEEEE",
+	"If there's a god I have but one simple question: what the fuck?"
 ];
-var fuckyou = Math.floor(43*Math.random());
+var fuckyou = Math.floor(46*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
