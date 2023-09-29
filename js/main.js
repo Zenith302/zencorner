@@ -42,9 +42,12 @@ var r_text = [
 	"god I'm such a silly little gayass",
 	"Fix your posture and drink some water, we healthy today",
 	"This! Is! Sparta!",
-	"7"
+	"7",
+	"Trackmania Speed Race",
+	"'Where only the cute survive' is my favorite website subtitle",
+	"Sleepiest girl alive",
 ];
-var fuckyou = Math.floor(40*Math.random());
+var fuckyou = Math.floor(43*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
