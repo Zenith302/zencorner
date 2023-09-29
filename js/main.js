@@ -51,7 +51,7 @@ var r_text = [
 	"brain full of microplastics WEEEEE",
 	"If there's a god I have but one simple question: what the fuck?"
 ];
-var fuckyou = Math.floor(46*Math.random());
+var fuckyou = Math.floor(47*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
