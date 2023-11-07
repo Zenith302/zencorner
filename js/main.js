@@ -41,9 +41,17 @@ var r_text = [
 	"I'm a Playstation gal, always have been and always will",
 	"god I'm such a silly little gayass",
 	"Fix your posture and drink some water, we healthy today",
-	"This! Is! Sparta!"
+	"This! Is! Sparta!",
+	"7",
+	"Trackmania Speed Race",
+	"'Where only the cute survive' is my favorite website subtitle",
+	"Sleepiest girl alive",
+	"AMIGAAAAAAAAAAAAAAAAAAAAAAAAA",
+	"words are so very, very hard",
+	"brain full of microplastics WEEEEE",
+	"If there's a god I have but one simple question: what the fuck?"
 ];
-var fuckyou = Math.floor(39*Math.random());
+var fuckyou = Math.floor(47*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
