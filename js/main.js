@@ -92,10 +92,10 @@ var r_grad = [
 	"linear-gradient(to bottom, rgba(255,72,0,1) 0%,rgba(255,253,0,1) 100%)", //red/yellow spinball graident
 	"linear-gradient(to bottom, rgba(255,253,0,1) 5%,rgba(255,72,0,1) 15%,rgba(0,253,255,1) 25%,rgba(0,217,0,1) 35%,rgba(255,253,0,1) 45%,rgba(255,72,0,1) 55%,rgba(0,253,255,1) 65%,rgba(0,217,0,1) 75%,rgba(255,253,0,1) 85%,rgba(255,72,0,1) 95%)",
 	//^^^ rainbow spinball gradient
-	"linear-gradient(to bottom, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(255,140,207,1) 51%,rgba(209,0,45,1) 100%);"
+	"linear-gradient(to bottom, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(255,140,207,1) 51%,rgba(209,0,45,1) 100%);",
 	"linear-gradient(to bottom, rgba(212,44,0,1) 0%,rgba(212,44,0,1) 20%,rgba(212,44,0,1) 20%,rgba(178,77,34,1) 20%,rgba(253,152,85,1) 20%,rgba(253,152,85,1) 20%,rgba(253,152,85,1) 40%,rgba(214,210,208,1) 40%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 60%,rgba(205,182,195,1) 60%,rgba(209,97,162,1) 60%,rgba(209,97,162,1) 80%,rgba(131,16,85,1) 80%,rgba(162,1,97,1) 80%,rgba(162,1,97,1) 100%);"
 ];
-var i = Math.floor(15*Math.random())
+var i = Math.floor(16*Math.random())
 
 $('.marquee').css('background-image', r_grad[i]);
 
