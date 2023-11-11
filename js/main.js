@@ -143,7 +143,7 @@ function feedGET(recent) {
                     break;
                 case 'Blog':
                     // blog post stuff
-                    tmp += '<h1 class="post blog"><img src="img/blog.png"> ' + element.find('title').text() + ' <span class="subnote"> | ' + element.find('pubDate').text() + '</span></h2>';
+                    tmp += '<h1 class="post blog"><img src="img/broken collar.png"> ' + element.find('title').text() + ' <span class="subnote"> | ' + element.find('pubDate').text() + '</span></h2>';
                     break;
                 default:
                     console.log('invalid category');
