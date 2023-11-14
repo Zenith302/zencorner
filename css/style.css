@@ -179,7 +179,7 @@ ul > li {
 	margin-right: auto;
 	width: 99px;
 }
-.center-badge > img { filter: drop-shadow(0px 0px 6px #59cf93) }
+.center-badge > img { filter: drop-shadow(0px 0px 6px #FF99CC) }
 
 .zenkitty {
 	text-shadow: 0px 0px 6px #4263f5, 0px 0px 6px #4263f5, 0px 0px 6px #4263f5;
