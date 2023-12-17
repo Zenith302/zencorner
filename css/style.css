@@ -91,6 +91,10 @@ ul > li {
 	color: white;
 	border-right: 4px #741291 groove;
 }
+.indexImg {
+    width: 256px;
+    height: 256px;
+}
 .text-scroller {
 	height:32px;
 	width:100%;
