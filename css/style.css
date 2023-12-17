@@ -1054,7 +1054,7 @@ iframe {
 }
 
 /* to better fit large screens, double scale literally everything lmao */
-@media only screen and (min-width: 2048px) {
+@media only screen and (min-width: 4000px) {
     body { transform: scale(2.0); transform-origin: top left; width: 50vw; height: 50vh; overflow-y: hidden; }
 
     .page-content { width: calc(50vw - 301px); height: calc(50vh - 40px); overflow: scroll; }
