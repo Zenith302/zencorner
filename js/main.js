@@ -139,7 +139,7 @@ function feedGET(recent) {
             switch (element.find("category").text()) {
                 case 'Site Update':
                     // site update post stuff awawa
-                    tmp += '<h1 class="post update"><img src="img/globe-green.png"> ' + element.find('title').text() + ' <span class="subnote"> | ' + element.find('pubDate').text() + '</span></h1>';
+                    tmp += '<h1 class="post update"><img src="img/update.png"> ' + element.find('title').text() + ' <span class="subnote"> | ' + element.find('pubDate').text() + '</span></h1>';
                     break;
                 case 'Blog':
                     // blog post stuff
