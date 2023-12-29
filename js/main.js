@@ -49,9 +49,12 @@ var r_text = [
 	"AMIGAAAAAAAAAAAAAAAAAAAAAAAAA",
 	"words are so very, very hard",
 	"brain full of microplastics WEEEEE",
-	"If there's a god I have but one simple question: what the fuck?"
+	"If there's a god I have but one simple question: what the fuck?",
+	"Alpha was here",
+	"Pizza with barbecue sauce, chicken, and bacon is just so good",
+	"Pineapple on pizza is good only if paired with meat"
 ];
-var fuckyou = Math.floor(47*Math.random());
+var fuckyou = Math.floor(50*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
