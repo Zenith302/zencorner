@@ -6,6 +6,14 @@
     <link>https://zencorner.xyz/</link>
     <description>Zen's corner of the internet, home to her silly projects, doodles, and blog</description>
 
+    <item>
+        <category>Site Update</category>
+        <pubDate>Tue, 14 Nov 2023 16:44:00 CST</pubDate>
+    
+        <title>SushiCaptcha v1.2 update!</title>
+        <description>SushiCaptcha has been updated with a better image generator, and audio captcha functionality! Also, captchas are now time-sensitive and only valid for one minute.</description>
+      </item>
+      
 <item>
 	<category>Blog Update</category>
 	<pubDate>Monday, 26 dec 2023, 11:03:05 EST</pubDate>

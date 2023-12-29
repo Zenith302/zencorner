@@ -91,6 +91,10 @@ ul > li {
 	color: white;
 	border-right: 4px #741291 groove;
 }
+.indexImg {
+    width: 256px;
+    height: 256px;
+}
 .text-scroller {
 	height:32px;
 	width:100%;
@@ -179,7 +183,7 @@ ul > li {
 	margin-right: auto;
 	width: 99px;
 }
-.center-badge > img { filter: drop-shadow(0px 0px 6px #59cf93) }
+.center-badge > img { filter: drop-shadow(0px 0px 6px #FF99CC) }
 
 .zenkitty {
 	text-shadow: 0px 0px 6px #4263f5, 0px 0px 6px #4263f5, 0px 0px 6px #4263f5;
@@ -1054,7 +1058,7 @@ iframe {
 }
 
 /* to better fit large screens, double scale literally everything lmao */
-@media only screen and (min-width: 2048px) {
+@media only screen and (min-width: 4000px) {
     body { transform: scale(2.0); transform-origin: top left; width: 50vw; height: 50vh; overflow-y: hidden; }
 
     .page-content { width: calc(50vw - 301px); height: calc(50vh - 40px); overflow: scroll; }
