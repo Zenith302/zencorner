@@ -5,6 +5,206 @@
     <title>zencorner blog!!</title>
     <link>https://zencorner.xyz/</link>
     <description>Zen's corner of the internet, home to her silly projects, doodles, and blog</description>
+<<<<<<< HEAD
+=======
+
+<item>
+	<category>Blog</category>
+	<pubDate>Monday 1 Jan 2024, 0:38:13 EST</pubDate>
+	<title>HAPPY NEW YEAR!!!!</title>
+	<description>IT'S 2024 WHAT?? HAPPY NEW YEAR YAY</description>
+</item>
+
+<item>
+	<category>Blog</category>
+	<pubDate>Sunday 31 Dec 2023, 6:58:33 EST</pubDate>
+	<title>how did I not die here what</title>
+	<description>I'm like half inside the fire look at this shit<img src="img/eeinfire.jpg"></img></description>
+</item>
+
+<item>
+	<category>Blog</category>
+	<pubDate>Sunday 31 Dec 2023, 6:53:12 EST</pubDate>
+	<title>New Year's Eve!!!</title>
+	<description>Holy shit it's already new year's eve???? WHERE HAS TIME GONE?? Hope you all have a safe 2024 :3</description>
+</item>
+
+<item>
+	<category>Site Update</category>
+	<pubDate> Thursday, 28 Dec 2023, 9:55:46 EST</pubDate>
+	<title>New shit! Good shit? One can hope.</title>
+	<description>Made a new icon for the site updates, lemme know your thoughts on it please :3
+	I've also added some more outlinks and some more devices in my about me, thinking of working on sidebar 2.0 stuff in a bit.
+	Thank you all for sticking around and watching the site take form <img src="img/heart.png"></img>
+	</description>
+</item>
+
+<item>
+	<category>Blog</category>
+	<pubDate>Monday, 26 Dec 2023, 11:03:05 EST</pubDate>
+	<title>So that never happened lmao</title>
+	<description>things have gotten hectic but uhhh yeah hi sorry I keep forgetting to actually do anything I'm incredibly easily distracted and I've just been so very, very tired as of late</description>
+</item>
+
+<item>
+	<category>Site Update</category>
+	<pubDate>Friday, 15 Dec 2023, 22:13:05 EST</pubDate>
+	<title>some additions to the table of stuff I own</title>
+	<description>added phones and shit mostly</description>
+</item>
+
+<item>
+    <category>Site Update</category>
+    <pubDate>Tue, 14 Nov 2023 16:44:00 CST</pubDate>
+
+    <title>SushiCaptcha v1.2 update!</title>
+    <description>SushiCaptcha has been updated with a better image generator, and audio captcha functionality! Also, captchas are now time-sensitive and only valid for one minute.</description>
+</item>
+
+<item>
+	<category>Blog</category>
+	<pubDate>Saturday, 11 nov 2023, 4:44:04 EST</pubDate>
+	<title>New on-site blog icon</title>
+	<description>I call it "Broken Collar," starting small before I start to rebuild bits and pieces</description>
+</item>
+
+<item>
+	<category>Site Update</category>
+	<pubDate>Saturday, 11 nov 2023, 3:20:21 EST</pubDate>
+	<title>Gradual updates</title>
+	<description>A bit of expressiveness never hurt, no? add a bit of personality here, complexity there, then throw it across the room until it looks like the most emotionally garbled mess imaginable. then tone it down just enough for it to be legible for other people. expect some changes, fuck if I know how drastic it'll be lmao</description>
+</item>
+<item>
+	<category>Blog</category>
+	<pubDate>Saturday, 11 nov 2023, 2:39:12 EST</pubDate>
+	<title>holy fuck I love this website</title>
+	<description>https://astrossoundhell.neocities.org/ LOOK AT IT. LOOK AT IT NOW!!!!! HOLY FUCKING SHIT IT'S BEAUTIFUL!!!!!!!!!!! everything about the fuckin aesthetic is so good and all the rest of the pages on it and all ttnhskese ;;eaef ;aw fioawehrj oiw rhwoi9ar hjfiowrjfedfkl;sdahf;eikfljcfjmsd LOOK AT IT. BECOME ONE WITH IT. IT'S SO PRETTYYYYYYY AAAAAAAAAAAAAAAAAAAAAAAAAAFKSDL; also all the sites it links to (especially emma's) are just. my mouth is WATERINGGG</description>
+</item>
+<item>
+	<category>Blog</category>
+	<pubDate>Tuesday, 7 nov 2023, 1:06:43 EST</pubDate>
+	<title>Short term memory loss</title>
+	<description>I'm super incredibly forgetful could some of you pester me to update my site now and then please</description>
+</item>
+<item>
+	<category>Site Update</category>
+	<pubDate>Monday, 9 oct 2023, 01:44:26 EST</pubDate>
+	<title>Housekeeping</title>
+	<description>Removed some stuff I don't vibe with and probably made a couple other changes?? I already forgot lol</description>
+</item>
+<item>
+	<category>Site Update</category>
+	<pubDate>Wed, 4 sep 2023, 17:37:21 EST</pubDate>
+	<title>Sona stuff refresh</title>
+	<description>Redrew all the badges and icons that lacked zenith's current looks :3 (also added music hehe)</description>
+</item>
+<item>
+	<category>Site Update</category>
+	<pubDate>Fri, 29 sep 2023, 14:01:20 EST</pubDate>
+	<title>New update wave!</title>
+	<description>Added and changed around some stuff to fit my liking woo!
+	<ul>
+	<li>Added <b>7</b> new splash texts</li>
+	<li>Rewrote page names</li>
+	<li>Added two new easter eggs</li>
+	<li>Added a Super Secret Invitation<sup>TM</sup></li>
+	</ul>
+	</description>
+</item>
+<item>
+	<category>Blog</category>
+	<pubDate>Fri, 29 sep 2023, 19:05:11 EST</pubDate>
+	<title>Update Addendum </title>
+	<description>Forgot to mention I also want to upload a TON of music and the anniversary art piece</description>
+</item>
+<item>
+	<category>Blog</category>
+	<pubDate>Fri, 29 sep 2023, 13:16:32 EST</pubDate>
+	<title>got busy, updates soon</title>
+	<description>Welp, I got really busy and couldn't work on the updates I had planned as quickly. Doesn't matter tho, I've got some time today to do just that! here are some things I have planned:
+	<ul>
+	<li>New easter egg(s?)</li>
+	<li>More music!</li>
+	<li>Finally some more art</li>
+	<li>More splash text</li>
+	<li>Even! More! BUTTONS!!!</li>
+	</ul></description>
+</item>
+<item>
+	<category>Site Update</category>
+	<pubDate>Tue, 12 sep 2023, 21:12:37 EST</pubDate>
+	<title>Anniversary update wave 2</title>
+	<description><ul>
+	<li>Added new web buttons</li>
+	<li>Easier easter egg access</li>
+	</ul></description>
+</item>
+
+<item>
+	<category>Blog</category>
+	<pubDate>Tue, 12, sep 2023, 14:59:46 EST</pubDate>
+	<title>Monopoly</title>
+	<description>The only board game that lets you be a capitalist whore without the slightest hint of guilt </description>
+</item>
+
+<item>
+	<category>Site Update</category>
+	<pubDate>Mon, 11 sep 2023, 23:34:12 EST</pubDate>
+	<title>Anniversary update wave 1</title>
+	<description><ul>
+	<li>Added party streamer and decor</li>
+	<li>Added anniversary art</li>
+	<li>Added more splash text</li>
+	<li>Added new easter eggs</li>
+	</ul></description>
+</item>
+
+<item>
+	<category>Blog</category>
+	<pubDate>Mon, 11 Sep 2023, 22:31:37 EST</pubDate>
+	<title>1 year website anniversary!!!!</title>
+	<description>WOOO IT'S BEEN A YEAR!! Thank you for visiting, signing the guest book, giving feedback and ideas, and to all my friends: thank you for all the cool stuff regarding site ideas :3 this whole thing wouldn't at all be possible without my glorious Ashie though, so be sure to give her site lots of attention too!!!</description>
+</item>
+
+<item>
+	<category>Blog</category>
+	<pubDate>Fri, 8 Sep 2023, 14:48:23 EST</pubDate>
+	<title>Ready Player One is an amazing book</title>
+	<description> I just finished reading Ready Player One and holy shit. I loved it so fucking much!! Amazing story, dialogue that actually sounds natural, plenty of "fuck you late stage capitalism" and genuinely the environments are described with so. much. detail. maybe it's just my hyperactive brain making it vivid but it was seriously incredible, I beg of anybody reading this to also read the book lol</description>
+</item>
+
+<item>
+	<category>Site Update</category>
+	<pubDate>Mon, 24 Jul 2023, 21:48:23 EST</pubDate>
+	
+	<title>New sidebar art!</title>
+	<description> Drew some new sidebar art of my headmate Alpha, styled after Apple's System 6 OS. she'll appear every thursday!!!</description>
+</item>
+
+<item>
+	<category>Blog</category>
+	<pubDate>Mon, 24 Jul 2023, 12:15:04 EST</pubDate>
+
+	<title>Incredibly important announcement regarding Icezer/Zeuvia</title>
+	<description>PSA! A friend of mine, "Bloops" Had recently departed all forms of social media due to a large incident surrounding a then-friend of ours for two years, Icezer. You can find more information on this here: https://srb2staff.notion.site/Icezer-Zeuvia-and-SuperPhanto-s-bans-ce26b6baafb6416689bef65058e41269?pvs=4 This is a public announcement for you to stand your ground against her to prevent further incidents. Please report any instances of "Icezer" or "Zeuvia" which you may find on discord, she may be found in FNF, Touhou, UTDR or Sonic-related servers. Most importantly, do not fall into her attempts at trying to regain her stance she once had, she'd released a poor response on her twitter regarding the evidence-backed claims made on the main ocument posted. I urge you to stay alert and vigilant towards her and any other groomer situations. </description>
+</item>
+
+<item>
+	<category>Site Update</category>
+	<pubDate>Tue, 30 May 2023, 11:10:30 EST</pubDate>
+	
+	<title>Better layout and new stuff woo!!!</title>
+	<description>art page now has the same galery view that my wifey's has and now there's a separate music page because cramming that much in a single page is gonna be a bad idea in the long run</description>
+</item>
+
+<item>
+	<category>Blog</category>
+	<pubDate>Tue, 23 May 2023 3:40:21 EST</pubDate>
+
+	<title>Minor annoyances</title>
+        <description>Woo complaining time because it's nearly 4 am and I still can't sleep despite being too tired to actually really move. what fun.</description>
+</item>
+>>>>>>> 3395adce1979578b344426985b2e329d12d33271
 	
 
 
@@ -178,6 +378,7 @@
       <title>Ready Player One is an amazing book</title>
       <description> I just finished reading Ready Player One and holy shit. I loved it so fucking much!! Amazing story, dialogue that actually sounds natural, plenty of "fuck you late stage capitalism" and genuinely the environments are described with so. much. detail. maybe it's just my hyperactive brain making it vivid but it was seriously incredible, I beg of anybody reading this to also read the book lol</description>
     </item>
+<<<<<<< HEAD
 	
     <item>
       <category>Site Update</category>
@@ -413,4 +614,8 @@
       <description>Check out what little I have at the start QwQ</description>
     </item>
   </channel>
+=======
+</channel>
+
+>>>>>>> 3395adce1979578b344426985b2e329d12d33271
 </rss>
