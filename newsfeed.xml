@@ -209,24 +209,20 @@
 	<title>Minor annoyances</title>
         <description>Woo complaining time because it's nearly 4 am and I still can't sleep despite being too tired to actually really move. what fun.</description>
 </item>
->>>>>>> 3395adce1979578b344426985b2e329d12d33271
-	
 
+	<item>
+	<category>Blog</category>
+	<pubDate>Tuesday 06 Feb 2024, 16:17:53 EST</pubDate>
+	<title>guestbook thanks</title>
+	<description>thank you sonic the hedgehog and eggman the evil genius for signing my guestbook</description>
+	</item>
 
-<item>
-<category>Blog</category>
-<pubDate>Tuesday 06 Feb 2024, 16:17:53 EST</pubDate>
-<title>guestbook thanks</title>
-<description>thank you sonic the hedgehog and eggman the evil genius for signing my guestbook</description>
-</item>
-
-
-<item>
-<category>Blog</category>
-<pubDate>Thursday 18 Jan 2024, 0:05:50 EST</pubDate>
-<title>I've made the coolest rss updater in the world</title>
-<description>love this thing it's very basic but looks cool (will post image tomorrow evening I'm eepy beepy)</description>
-</item>
+	<item>
+	<category>Blog</category>
+	<pubDate>Thursday 18 Jan 2024, 0:05:50 EST</pubDate>
+	<title>I've made the coolest rss updater in the world</title>
+	<description>love this thing it's very basic but looks cool (will post image tomorrow evening I'm eepy beepy)</description>
+	</item>
 
     <item>
       <category>Blog</category>
@@ -383,7 +379,6 @@
       <title>Ready Player One is an amazing book</title>
       <description> I just finished reading Ready Player One and holy shit. I loved it so fucking much!! Amazing story, dialogue that actually sounds natural, plenty of "fuck you late stage capitalism" and genuinely the environments are described with so. much. detail. maybe it's just my hyperactive brain making it vivid but it was seriously incredible, I beg of anybody reading this to also read the book lol</description>
     </item>
-<<<<<<< HEAD
 	
     <item>
       <category>Site Update</category>
@@ -619,8 +614,4 @@
       <description>Check out what little I have at the start QwQ</description>
     </item>
   </channel>
-=======
-</channel>
-
->>>>>>> 3395adce1979578b344426985b2e329d12d33271
 </rss>
