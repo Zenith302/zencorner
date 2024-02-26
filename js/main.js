@@ -52,16 +52,10 @@ var r_text = [
 	"If there's a god I have but one simple question: what the fuck?",
 	"Alpha was here",
 	"Pizza with barbecue sauce, chicken, and bacon is just so good",
-<<<<<<< HEAD
-	"Pineapple on pizza is good only if paired with meat"
-];
-var fuckyou = Math.floor(50*Math.random());
-=======
-	"Pineapple on pizza is good if paired with meat",
+	"Pineapple on pizza is good only if paired with meat",
 	"Realistically speaking, life is temporary. So give fuckall about the specifics and just have as much fun as you can"
 ];
 var fuckyou = Math.floor(51*Math.random());
->>>>>>> 3395adce1979578b344426985b2e329d12d33271
 
 $("#scrollText").html(r_text[fuckyou]);
 

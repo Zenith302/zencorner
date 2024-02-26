@@ -5,8 +5,13 @@
     <title>zencorner blog!!</title>
     <link>https://zencorner.xyz/</link>
     <description>Zen's corner of the internet, home to her silly projects, doodles, and blog</description>
-<<<<<<< HEAD
-=======
+	
+<item>
+	<category>Site Update</category>
+	<pubDate>Sunday 25 Feb 2024, 22:58:42 EST</pubDate>
+	<title>Fucking finally</title>
+	<description>finally fixed the site woo</description>
+</item>
 
 <item>
 	<category>Blog</category>
