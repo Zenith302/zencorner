@@ -53,11 +53,12 @@ var r_text = [
 	"Alpha was here",
 	"Pizza with barbecue sauce, chicken, and bacon is just so good",
 	"Pineapple on pizza is good only if paired with meat",
-	"Realistically speaking, life is temporary. So give fuckall about the specifics and just have as much fun as you can",
+	"Realistically speaking, life is temporary. So give fuckall about the specifics and have as much fun as you can",
 	"You're never alone in the microsoft maze",
-	"yeag I'm a gayass, so what?"
+	"why are girls so pretty",
+	"This is not now in the hardware. It may never get into the hardware. After all, I hate music."
 ];
-var fuckyou = Math.floor(53*Math.random());
+var fuckyou = Math.floor(54*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
