@@ -102,7 +102,7 @@ var r_grad = [
 	"linear-gradient(to bottom, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(255,140,207,1) 51%,rgba(209,0,45,1) 100%)",
 	"linear-gradient(to bottom, rgba(212,44,0,1) 34%,rgba(253,152,85,1) 42%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 54%,rgba(209,97,162,1) 62%,rgba(162,1,97,1) 70%)"
 ];
-var i = Math.floor(16*Math.random())
+var i = Math.floor(17*Math.random())
 
 $('.marquee').css('background-image', r_grad[i]);
 
