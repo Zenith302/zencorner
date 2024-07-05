@@ -44,7 +44,7 @@ var r_text = [
 	"This! Is! Sparta!",
 	"7",
 	"Trackmania Speed Race",
-	"'Where only the cute survive' is my favorite website subtitle",
+	"'Where only the cute survive' is my favorite website tagline",
 	"Sleepiest girl alive",
 	"AMIGAAAAAAAAAAAAAAAAAAAAAAAAA",
 	"words are so very, very hard",
@@ -98,7 +98,6 @@ var r_grad = [
 	"linear-gradient(to bottom, #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 37%,#90bff0 50%,#6ba8e5 51%,#a2daf5 83%,#bdf3fd 100%)",
 	"linear-gradient(to bottom, rgba(255,72,0,1) 0%,rgba(255,253,0,1) 100%)", //red/yellow spinball graident
 	"linear-gradient(to bottom, rgba(255,253,0,1) 5%,rgba(255,72,0,1) 15%,rgba(0,253,255,1) 25%,rgba(0,217,0,1) 35%,rgba(255,253,0,1) 45%,rgba(255,72,0,1) 55%,rgba(0,253,255,1) 65%,rgba(0,217,0,1) 75%,rgba(255,253,0,1) 85%,rgba(255,72,0,1) 95%)",
-	//^^^ rainbow spinball gradient
 	"linear-gradient(to bottom, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(255,140,207,1) 51%,rgba(209,0,45,1) 100%)",
 	"linear-gradient(to bottom, rgba(212,44,0,1) 34%,rgba(253,152,85,1) 42%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 54%,rgba(209,97,162,1) 62%,rgba(162,1,97,1) 70%)"
 ];
