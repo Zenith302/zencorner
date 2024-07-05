@@ -946,6 +946,7 @@ td#ico, th#ico > img { text-align: center; filter: drop-shadow(0px 0px 4px #F9C)
 #glow-sims {filter:drop-shadow(0px 0px 4px #60EA05)}
 #glow-tmuf {filter:drop-shadow(0px 0px 4px #F3EB25)}
 #glow-kill {filter:drop-shadow(0px 0px 4px #FFFFFF)}
+#glow-kb {filter:drop-shadow(0px 0px 4px #D7E3E7)}
 
 #temp { 
   font-size: 32px;
