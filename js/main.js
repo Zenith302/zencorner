@@ -56,9 +56,10 @@ var r_text = [
 	"Realistically speaking, life is temporary. So give fuckall about the specifics and have as much fun as you can",
 	"You're never alone in the microsoft maze",
 	"why are girls so pretty",
-	"This is not now in the hardware. It may never get into the hardware. After all, I hate music."
+	"This is not now in the hardware. It may never get into the hardware. After all, I hate music.",
+	"Electron is the software equivalent to filling your boots with river water"
 ];
-var fuckyou = Math.floor(54*Math.random());
+var fuckyou = Math.floor(55*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
