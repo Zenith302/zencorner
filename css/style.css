@@ -23,7 +23,7 @@
 /* variables */
 :root {
 	--vista-taskbar: linear-gradient(to bottom, #54545477 0%,#b4b5b577 3%,#8b8c8c77 7%,#86878777 14%,#7d7e7e77 21%,#48494a77 48%,#1b1d1f77 52%,#18191b77 93%,#17191a77 97%,#13141577 100%);
-	--vista-taskbar-opaque: linear-gradient(to bottom, #545454cc 0%,#b4b5b5cc 3%,#8b8c8ccc 7%,#868787cc 14%,#7d7e7ecc 21%,#48494acc 48%,#1b1d1fcc 52%,#18191bcc 93%,#17191acc 97%,#131415cc 100%);
+	--vista-taskbar-opaque: 
 }
 
 /* hehe modify html element default styles :3c */

@@ -61,7 +61,7 @@ var r_text = [
 ];
 var fuckyou = Math.floor(55*Math.random());
 
-$("#scrollText").html(r_text[fuckyou]);
+$("#scrollText").html(r_text[Placeholder]);
 
 // random 404 audios
 var r_404 = [
