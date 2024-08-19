@@ -108,7 +108,7 @@ ul > li {
 }
 .marquee {
 	line-height: 32px;
-	white-space: pre;
+	white-space: nowrap;
 	width: 100%;
 	-webkit-background-clip: text;
     background-clip: text;
