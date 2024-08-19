@@ -112,7 +112,7 @@ ul > li {
 	width: 100%;
 	-webkit-background-clip: text;
     background-clip: text;
-	-webkit-text-fill-color: transparent; 
+	-webkit-text-fill-color: white; 
 	background-image: linear-gradient(to bottom, rgba(20,255,28,1) 0%,rgba(41,154,11,1) 100%)
 }
 .sidebar > span {
