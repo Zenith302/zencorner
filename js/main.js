@@ -57,9 +57,10 @@ var r_text = [
 	"You're never alone in the microsoft maze",
 	"why are girls so pretty",
 	"This is not now in the hardware. It may never get into the hardware. After all, I hate music.",
-	"Electron is the software equivalent to filling your boots with river water"
+	"Electron is the software equivalent to filling your boots with river water",
+	"You just lost the game"
 ];
-var fuckyou = Math.floor(55*Math.random());
+var fuckyou = Math.floor(56*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
