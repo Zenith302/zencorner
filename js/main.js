@@ -58,9 +58,12 @@ var r_text = [
 	"why are girls so pretty",
 	"This is not now in the hardware. It may never get into the hardware. After all, I hate music.",
 	"Electron is the software equivalent to filling your boots with river water",
-	"You just lost the game"
+	"You just lost the game",
+	"shababclampingpongclongsos",
+	"come, on, fhqwhgads, I said come on, fhqwhgads",
+	"computer over? virus equals very yes!? that's not a good prize!"
 ];
-var fuckyou = Math.floor(56*Math.random());
+var fuckyou = Math.floor(59*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
