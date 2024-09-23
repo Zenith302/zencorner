@@ -139,7 +139,7 @@ async function hcGET() {
 			let i = 0;
 			json['hits'].toString().split('').forEach(function (digit) {
 				console.log('modifying digit ' + i);
-				$("#vfd" + (startDigit + i)).attr('src', 'img/counter/vfd' + digit + '.png');
+				$("#hc" + (startDigit + i)).attr('src', 'img/counter/vfd' + digit + '.png');
 				i++;
 			});
 			
