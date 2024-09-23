@@ -133,13 +133,15 @@ async function hcGET() {
     if (response.ok) {
         let json = await response.json();
         if (json) {
-            //$('#hits').text(json['hits'] + ' hits');
-			console.log(json['hits']);
 			let startDigit = (7-json['hits'].length);
 			let i = 0;
 			json['hits'].toString().split('').forEach(function (digit) {
-				console.log('modifying digit ' + i);
-				$("#hc" + (startDigit + i)).attr('src', 'img/counter/vfd' + digit + '.png');
+				let currentDigit = startDigit + i;
+				if (currentDigit == 0 || currentDigit == 3) {
+					$("#hc" + currentDigit).attr('src', 'img/counter/vfd' + digit + 'c.png');
+				} else {
+					$("#hc" + currentDigit).attr('src', 'img/counter/vfd' + digit + '.png');
+				}
 				i++;
 			});
 			
