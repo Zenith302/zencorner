@@ -135,9 +135,10 @@ async function hcGET() {
         if (json) {
             //$('#hits').text(json['hits'] + ' hits');
 			console.log(json['hits']);
-			let startDigit = (7-json['hits'].length)-1;
+			let startDigit = (7-json['hits'].length);
 			let i = 0;
 			json['hits'].toString().split('').forEach(function (digit) {
+				console.log('modifying digit ' + i);
 				$("#vfd" + (startDigit + i)).attr('src', 'img/counter/vfd' + digit + '.png');
 				i++;
 			});
