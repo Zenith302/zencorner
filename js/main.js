@@ -133,7 +133,14 @@ async function hcGET() {
     if (response.ok) {
         let json = await response.json();
         if (json) {
-            $('#hits').text(json['hits'] + ' hits');
+            //$('#hits').text(json['hits'] + ' hits');
+			let startDigit = (7-json['hits'].length)-1;
+			let i = 0;
+			json['hits'].split('').forEach(function (digit) {
+				$("#vfd" + (startDigit + i)).attr('src', 'img/counter/vfd' + digit + '.png');
+				i++;
+			});
+			
         }
     }
 }
