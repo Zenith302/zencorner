@@ -5,7 +5,7 @@
 var r_text = [
 	"nyanya!",
 	'<a href="https://zencorner.xyz/sdfasdklfgsdfgsgoinrfoenlvbd">sdfasdklfgsdfgsgoinrfoenlvbd</a>',
-	"Did you know? Zenith has TEN cats",
+	"Did you know? Zenith has ELEVEN cats",
 	"Any weather is skirt weather if you can stand the cold",
 	"Notepad++ is certainly the program of all time",
 	"Reject human, embrace meow",
