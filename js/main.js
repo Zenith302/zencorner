@@ -63,9 +63,10 @@ var r_text = [
 	"come, on, fhqwhgads, I said come on, fhqwhgads",
 	"computer over? virus equals very yes!? that's not a good prize!",
 	"NICE KNOWING YOU, SKETCH TURNER!",
-	"if buying isn't owning, piracy isn't stealing"
+	"if buying isn't owning, piracy isn't stealing",
+	"SBLOUNSKCHED"
 ];
-var fuckyou = Math.floor(61*Math.random());
+var fuckyou = Math.floor(62*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
