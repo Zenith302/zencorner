@@ -141,9 +141,9 @@ async function hcGET() {
 			json['hits'].toString().split('').forEach(function (digit) {
 				let currentDigit = startDigit + i;
 				if (currentDigit == 0 || currentDigit == 3) {
-					$("#hc" + currentDigit).attr('src', 'img/counter/vfd' + digit + 'c.png');
+					$("#hc" + currentDigit).attr('src', '/img/counter/vfd' + digit + 'c.png');
 				} else {
-					$("#hc" + currentDigit).attr('src', 'img/counter/vfd' + digit + '.png');
+					$("#hc" + currentDigit).attr('src', '/img/counter/vfd' + digit + '.png');
 				}
 				i++;
 			});
@@ -398,22 +398,22 @@ $(document).ready(function() {
 	let day = d.getDay();
 	switch (day) {
 		case 1: // monday
-			$(".indexImg").attr("src", "img/ZenIndex1.png");
+			$(".indexImg").attr("src", "/img/ZenIndex1.png");
 			break;
 		case 2: // tuesday
-			$(".indexImg").attr("src", "img/ZenIndex2.png");
+			$(".indexImg").attr("src", "/img/ZenIndex2.png");
 			break;
 		case 3: //wednesday
-			$(".indexImg").attr("src", "img/ZenIndex3.png");
+			$(".indexImg").attr("src", "/img/ZenIndex3.png");
 			break;
 		case 4: //thursday
-			$(".indexImg").attr("src", "img/AlphaIndex4.png");
+			$(".indexImg").attr("src", "/img/AlphaIndex4.png");
 			break;
 		case 6: // saturday placeholder
-			$(".indexImg").attr("src", "img/placeholderindexreturn.png");
+			$(".indexImg").attr("src", "/img/placeholderindexreturn.png");
 			break;
 		default: //  fallback pic
-			$(".indexImg").attr("src", "img/ZenIndex1.png");
+			$(".indexImg").attr("src", "/img/ZenIndex1.png");
 			break;
 	}
 	
