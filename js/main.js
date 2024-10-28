@@ -65,9 +65,10 @@ var r_text = [
 	"NICE KNOWING YOU, SKETCH TURNER!",
 	"if buying isn't owning, piracy isn't stealing",
 	"SBLOUNSKCHED",
-	"DO YOU HAS? BOOND YOU LIKE?"
+	"DO YOU HAS? BOOND YOU LIKE?",
+	"bananya my beloved"
 ];
-var fuckyou = Math.floor(63*Math.random());
+var fuckyou = Math.floor(64*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
