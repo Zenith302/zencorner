@@ -66,9 +66,11 @@ var r_text = [
 	"if buying isn't owning, piracy isn't stealing",
 	"SBLOUNSKCHED",
 	"DO YOU HAS? BOOND YOU LIKE?",
-	"bananya my beloved"
+	"bananya my beloved",
+	"I am the milkman. My milk is delicious.",
+	"EAT ELECTRIC DEATH!"
 ];
-var fuckyou = Math.floor(64*Math.random());
+var fuckyou = Math.floor(66*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
