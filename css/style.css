@@ -49,9 +49,18 @@ body {
 	height: 100vh;
 	z-index: -1;
 }
-h1, h2, h3, h4 {
+h1, h2, h4 {
 	font-family: 'Lilian';
 	background: linear-gradient(to right, rgba(116,18,145,1) 0%,rgba(48,0,96,1) 50%,rgba(48,0,96,0) 100%);
+	text-shadow: 0px 0px 8px #FF99CC;
+	margin-left: -24px;
+	padding-left: 24px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+h3 {
+	font-family: 'Lilian';
+	background: linear-gradient(to right, rgba(128,0,128,1) 0%,rgba(0,64,100,1) 50%,rgba(0,64,100,0) 100%);
 	text-shadow: 0px 0px 8px #FF99CC;
 	margin-left: -24px;
 	padding-left: 24px;
