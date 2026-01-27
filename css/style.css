@@ -227,8 +227,8 @@ ul > li {
     text-shadow: 0px 0px 6px #99FFCC;
 }
 #warn {
-	color: #FF3333;
-	text-shadow: 0px 0px 6px #FFFF00;
+	color: #FFFF00;
+	text-shadow: 0px 0px 6px #FF3333;
 }
 
 .page-footer {
