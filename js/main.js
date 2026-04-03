@@ -68,9 +68,11 @@ var r_text = [
 	"DO YOU HAS? BOOND YOU LIKE?",
 	"bananya my beloved",
 	"I am the milkman. My milk is delicious.",
-	"EAT ELECTRIC DEATH!"
+	"EAT ELECTRIC DEATH!",
+	"Nebula was here",
+	"Dakota was here"
 ];
-var fuckyou = Math.floor(66*Math.random());
+var fuckyou = Math.floor(68*Math.random());
 
 $("#scrollText").html(r_text[fuckyou]);
 
